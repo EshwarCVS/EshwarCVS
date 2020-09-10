@@ -36,29 +36,27 @@ const eshwar = {
 <table>
   <tbody>
     <tr valign="top">
-      <td width="25%" align="center">
+      <td width="15%" align="center">
         <span>𝗖</span><br><br><br>
         <img height="64px" src="https://cdn.svgporn.com/logos/c.svg">
       </td>
-      <td width="25%" align="center">
+      <td width="15%" align="center">
         <span>𝗖++</span><br><br><br>
         <img height="64px" src="https://cdn.svgporn.com/logos/c-plusplus.svg">
       </td>
-      <td width="25%" align="center">
+      <td width="15%" align="center">
         <span>𝗣𝘆𝘁𝗵𝗼𝗻</span><br><br><br>
         <img height="64px" src="https://cdn.svgporn.com/logos/python.svg">
       </td>
-      <td width="25%" align="center">
+      <td width="15%" align="center">
         <span>𝗱𝗲𝗻𝗼</span><br><br><br>
         <img height="64px" src="https://cdn.svgporn.com/logos/deno.svg">
       </td>
-    </tr>
-    <tr valign="top">
-      <td width="25%" align="center">
+      <td width="15%" align="center">
         <span>𝗚𝗶𝘁</span><br><br><br>
         <img height="64px" src="https://cdn.svgporn.com/logos/git-icon.svg">
       </td>
-      <td width="25%" align="center">
+      <td width="15%" align="center">
         <span>𝗩𝗶𝘀𝘂𝗮𝗹 𝗦𝘁𝘂𝗱𝗶𝗼 𝗖𝗼𝗱𝗲</span><br><br><br>
         <img height="64px" src="https://cdn.svgporn.com/logos/visual-studio-code.svg">
       </td>
@@ -71,8 +69,6 @@ const eshwar = {
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :)</em>
 
 
-
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-
 ---
 ⭐️ From [@EshwarCVS](https://github.com/EshwarCVS)
