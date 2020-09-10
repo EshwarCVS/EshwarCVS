@@ -7,7 +7,7 @@
 [![Linkedin: Eshwar Chandra Vidhyasagar](https://img.shields.io/badge/-eshwar-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/eshwarchandravidhyasagar/)](https://www.linkedin.com/in/eshwarchandravidhyasagar/)
 [![GitHub eshwarcvs](https://img.shields.io/github/followers/eshwarcvs?label=follow&style=social)](https://github.com/EshwarCVS)
 
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> ## More about me  
+## More about me  
 
 ```javascript
 const eshwar = {
