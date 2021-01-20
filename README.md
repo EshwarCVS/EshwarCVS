@@ -1,6 +1,6 @@
 <h2>Namaste🙏🏻,  I'm Thedla Eshwar Chandra Vidhyasagar!</h2>
 <img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
-<p><em>Technology Analyst at Deloitte<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+<p><em>CS Grad at NCSU<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
 
 [![](https://img.shields.io/badge/Gmail-thedla.ecvs@gmail.com-red)](mailto:thedla.ecvs@gmail.com)
