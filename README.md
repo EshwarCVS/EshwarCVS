@@ -12,7 +12,7 @@
 ```javascript
 const eshwar = {
     pronouns: "He" | "Him",
-    askMeAbout: ["web dev", "tech", "app dev", "pencil-sketching"],
+    askMeAbout: ["web dev", "tech", "app dev"],
     technologies: {
         frontEnd: {
             js: ["React"],
@@ -46,11 +46,11 @@ const eshwar = {
       <td width="15%" align="center">
         <span>𝗣𝘆𝘁𝗵𝗼𝗻</span><br><br><br>
         <img height="64px" src="https://cdn.svgporn.com/logos/python.svg">
-      </td>
+<!--       </td>
       <td width="15%" align="center">
         <span>𝗱𝗲𝗻𝗼</span><br><br><br>
         <img height="64px" src="https://cdn.svgporn.com/logos/deno.svg">
-      </td>
+      </td> -->
       <td width="15%" align="center">
         <span>𝗚𝗶𝘁</span><br><br><br>
         <img height="64px" src="https://cdn.svgporn.com/logos/git-icon.svg">
