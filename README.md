@@ -1,4 +1,4 @@
-<h2>Namaste🙏🏻,  I'm Thedla Eshwar Chandra Vidhyasagar!</h2>
+<h2>Namaste🙏🏻,  I'm Eshwar Chandra Vidhyasagar Thedla!</h2>
 <img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
 <p><em>CS Grad at NCSU<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
@@ -12,16 +12,17 @@
 ```javascript
 const eshwar = {
     pronouns: "He" | "Him",
-    askMeAbout: ["web dev", "tech", "app dev"],
+    askMeAbout: ["Machine Learning", "Web Development", "App Development"],
     technologies: {
         frontEnd: {
             js: ["React"],
             css: ["materialize", "bootstrap", "material.io"]
         },
         backEnd: {
-            js: ["deno", "express", "node"],
+            js: ["express", "node"],
         },
-        databases: ["mongo", "sqlite"],
+        databases: ["mariadb", "mongo", "sqlite"],
+        
         misc: ["Firebase", "Socket.IO", "selenium", "open-cv", "appium"]
     },
     architecture: ["Progressive web applications", "Single page applications"],
@@ -46,11 +47,6 @@ const eshwar = {
       <td width="15%" align="center">
         <span>𝗣𝘆𝘁𝗵𝗼𝗻</span><br><br><br>
         <img height="64px" src="https://cdn.svgporn.com/logos/python.svg">
-<!--       </td>
-      <td width="15%" align="center">
-        <span>𝗱𝗲𝗻𝗼</span><br><br><br>
-        <img height="64px" src="https://cdn.svgporn.com/logos/deno.svg">
-      </td> -->
       <td width="15%" align="center">
         <span>𝗚𝗶𝘁</span><br><br><br>
         <img height="64px" src="https://cdn.svgporn.com/logos/git-icon.svg">
