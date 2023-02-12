@@ -3,7 +3,7 @@
 <p><em>CS Grad student at NCSU<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
 
-[![](https://img.shields.io/badge/Gmail-thedla.ecvs@gmail.com-red)](mailto:thedla.ecvs@gmail.com)
+[![](https://img.shields.io/badge/Gmail-thedlaeshwar@gmail.com-red)](mailto:thedlaeshwar@gmail.com)
 [![Linkedin: Eshwar Chandra Vidhyasagar](https://img.shields.io/badge/-eshwar-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/eshwarchandravidhyasagar/)](https://www.linkedin.com/in/eshwarchandravidhyasagar/)
 [![GitHub eshwarcvs](https://img.shields.io/github/followers/eshwarcvs?label=follow&style=social)](https://github.com/EshwarCVS)
 
