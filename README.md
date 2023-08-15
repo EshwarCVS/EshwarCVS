@@ -23,10 +23,10 @@ const eshwar = {
         },
         databases: ["mariadb", "mongo", "sqlite"],
         
-        misc: ["Firebase", "Socket.IO", "selenium", "open-cv", "appium"]
+        misc: ["Firebase", "Socket.IO", "selenium", "open-cv"]
     },
     architecture: ["Progressive web applications", "Single page applications"],
-    currentProject: "I am contributing to open source projects",
+    currentProject: "I am contributing to open source projects and continuously committing the code to Amazon codebase",
     Fav Quote: "Every problem is solved by yet another indirection."
 };
 ```
@@ -49,11 +49,11 @@ const eshwar = {
         <img height="64px" src="https://cdn.svgporn.com/logos/python.svg">
       <td width="15%" align="center">
         <span>𝗚𝗶𝘁</span><br><br><br>
-        <img height="64px" src="https://cdn.svgporn.com/logos/git-icon.svg">
+        <img height="64px" src="https://cdn.svgporn.com/logos/java.svg">
       </td>
       <td width="15%" align="center">
         <span>𝗩𝗦 𝗖𝗼𝗱𝗲</span><br><br><br>
-        <img height="64px" src="https://cdn.svgporn.com/logos/visual-studio-code.svg">
+        <img height="64px" src="https://cdn.svgporn.com/logos/spring.svg">
       </td>
     </tr>
   </tbody>
