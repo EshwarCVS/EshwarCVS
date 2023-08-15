@@ -48,11 +48,11 @@ const eshwar = {
         <span>𝗣𝘆𝘁𝗵𝗼𝗻</span><br><br><br>
         <img height="64px" src="https://cdn.svgporn.com/logos/python.svg">
       <td width="15%" align="center">
-        <span>𝗚𝗶𝘁</span><br><br><br>
+        <span>Java</span><br><br><br>
         <img height="64px" src="https://cdn.svgporn.com/logos/java.svg">
       </td>
       <td width="15%" align="center">
-        <span>𝗩𝗦 𝗖𝗼𝗱𝗲</span><br><br><br>
+        <span>Spring</span><br><br><br>
         <img height="64px" src="https://cdn.svgporn.com/logos/spring.svg">
       </td>
     </tr>
