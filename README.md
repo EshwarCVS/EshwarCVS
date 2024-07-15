@@ -1,6 +1,6 @@
 <h2> Hi, Eshwar Chandra Vidhyasagar Thedla Here</h2>
 <img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
-<p><em>CS Grad student at NCSU<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+<p><em>Software Developer 2 at United Wholesale Mortgage<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
 
 [![](https://img.shields.io/badge/Gmail-thedlaeshwar@gmail.com-red)](mailto:thedlaeshwar@gmail.com)
@@ -14,6 +14,9 @@ const eshwar = {
     pronouns: "He" | "Him",
     askMeAbout: ["Machine Learning", "Web Development", "App Development"],
     technologies: {
+        cross-platform: {
+            C#, ASP.NET, React Native
+        }
         frontEnd: {
             js: ["React"],
             css: ["materialize", "bootstrap", "material.io"]
@@ -21,12 +24,14 @@ const eshwar = {
         backEnd: {
             js: ["express", "node"],
         },
-        databases: ["mariadb", "mongo", "sqlite"],
-        
+        api: {
+            graphQL
+        }
+        databases: ["sql", "mariadb", "mongo", "sqlite"],
         misc: ["Firebase", "Socket.IO", "selenium", "open-cv"]
     },
     architecture: ["Progressive web applications", "Single page applications"],
-    currentProject: "I am contributing to open source projects and continuously committing the code to Amazon codebase",
+    currentProject: "I am contributing to open source projects and making the document generation process simpler and easier",
     Fav Quote: "Every problem is solved by yet another indirection."
 };
 ```
