@@ -67,8 +67,7 @@ const eshwar = {
 
 ## You can learn a little from here
 
-- Learn Git from here: https://github.com/EshwarCVS/Git-commands
-- 
+- Learn what I learn: https://github.com/EshwarCVS/vigilant-lamp
 
 
 ## Stats
