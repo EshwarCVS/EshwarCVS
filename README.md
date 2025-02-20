@@ -12,23 +12,23 @@
 ```javascript
 const eshwar = {
     pronouns: "He" | "Him",
-    askMeAbout: ["Machine Learning", "Web Development", "App Development"],
+    askMeAbout: ["Full-stack Development", "Web Development", "Backend Development"],
     technologies: {
         cross-platform: {
-            C#, ASP.NET, React Native
+            .NET Core, Spring Boot, React Native
         }
         frontEnd: {
             js: ["React"],
-            css: ["materialize", "bootstrap", "material.io"]
+            css: ["materialize", "material-ui"]
         },
         backEnd: {
-            js: ["express", "node"],
+            js: ["Express", "Node"],
         },
         api: {
-            graphQL
+            RESTful, graphQL
         }
         databases: ["sql", "mariadb", "mongo", "sqlite"],
-        misc: ["Firebase", "Socket.IO", "selenium", "open-cv"]
+        misc: [ "Azure", "Git", "Dynatrace", "Alteryx", "Kafka", "Socket.IO"]
     },
     architecture: ["Progressive web applications", "Single page applications"],
     currentProject: "I am contributing to open source projects and making the document generation process simpler and easier",
@@ -42,23 +42,20 @@ const eshwar = {
   <tbody>
     <tr valign="top">
       <td width="15%" align="center">
-        <span>𝗖</span><br><br><br>
-        <img height="64px" src="https://cdn.svgporn.com/logos/c.svg">
-      </td>
-      <td width="15%" align="center">
-        <span>𝗖++</span><br><br><br>
-        <img height="64px" src="https://cdn.svgporn.com/logos/c-plusplus.svg">
-      </td>
-      <td width="15%" align="center">
         <span>𝗣𝘆𝘁𝗵𝗼𝗻</span><br><br><br>
         <img height="64px" src="https://cdn.svgporn.com/logos/python.svg">
+      </td>
+      <td width="15%" align="center">
+        <span>𝗖#</span><br><br><br>
+        <img height="64px" src="https://cdn.svgporn.com/logos/c-sharp.svg">
+      </td>
       <td width="15%" align="center">
         <span>Java</span><br><br><br>
         <img height="64px" src="https://cdn.svgporn.com/logos/java.svg">
       </td>
       <td width="15%" align="center">
-        <span>Spring</span><br><br><br>
-        <img height="64px" src="https://cdn.svgporn.com/logos/spring.svg">
+        <span>Javascript</span><br><br><br>
+        <img height="64px" src="https://cdn.svgporn.com/logos/javascript.svg">
       </td>
     </tr>
   </tbody>
