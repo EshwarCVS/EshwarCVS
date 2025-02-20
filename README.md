@@ -1,4 +1,4 @@
-<h2> Hi, Eshwar Chandra Vidhyasagar Thedla here</h2>
+<h2> Hi, Eshwar Thedla here</h2>
 <img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
 <p><em>Software Developer 2 at United Wholesale Mortgage<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
