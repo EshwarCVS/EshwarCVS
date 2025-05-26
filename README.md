@@ -1,7 +1,7 @@
 <h2> Hi, Eshwar Thedla here</h2>
 
 <img align='right' src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=790b7611yp0jiunk7v8tqhv65lyfs6218cr3ywi8tmttpjl5&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="200">
-<p><em>Software Developer 2 at United Wholesale Mortgage    <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+<p><em>Software Developer III at Walmart Global Tech    <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
 
 [![](https://img.shields.io/badge/Gmail-thedlaeshwar@gmail.com-red)](mailto:thedlaeshwar@gmail.com)
@@ -14,7 +14,7 @@
 ```javascript
 const eshwar = {
     pronouns: "He" | "Him",
-    askMeAbout: ["Full-stack Development", "Web Development", "Backend Development"],
+    askMeAbout: ["Full-stack Development", "Backend Development"],
     technologies: {
         cross-platform: {
             .NET Core, Spring Boot, React Native
@@ -25,6 +25,8 @@ const eshwar = {
         },
         backEnd: {
             js: ["Express", "Node"],
+            .net: ["ASP.NET Core"],
+            python: [],
         },
         api: {
             RESTful, graphQL
@@ -33,7 +35,7 @@ const eshwar = {
         misc: [ "Azure", "Git", "Dynatrace", "Alteryx", "Kafka", "Socket.IO"]
     },
     architecture: ["Progressive web applications", "Single page applications"],
-    currentProject: "I am contributing to open source projects and making the document generation process simpler and easier",
+    currentProject: "I am contributing to open source projects and focusing on solutions to enhance social commerce strategies",
     Fav Quote: "Every problem is solved by yet another indirection."
 };
 ```
