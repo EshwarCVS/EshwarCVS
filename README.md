@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1a237e,100:3949ab&height=120&section=header&text=Eshwar&fontSize=48&fontColor=fff&animation=twinkling" width="100%"/>
+
 # Eshwar Chandra Vidhyasagar
 
 [![Software Engineer III](https://img.shields.io/badge/Software%20Engineer%20III-Walmart%20Global%20Tech-3949AB?style=for-the-badge)](https://linkedin.com/in/eshwarchandravidhyasagar)
@@ -66,9 +68,9 @@ High-performance ASGI framework — drop-in FastAPI replacement. 8.7x faster rou
 
 ## ⚡ Recent Activity
 
+- [leash-secrets](https://github.com/FasterApiWeb/leash-secrets)
 - [save-gcp-local](https://github.com/EshwarCVS/save-gcp-local)
 - [great_expectations](https://github.com/fivetran/great_expectations)
-- [leash-secrets](https://github.com/FasterApiWeb/leash-secrets)
 
 
 ---
@@ -140,4 +142,4 @@ Hiring managers and job seekers — reach out on [LinkedIn](https://linkedin.com
 
 ---
 
-<sub>Auto-updated Jul 10, 2026 05:44 UTC</sub>
+<sub>Auto-updated Jul 10, 2026 05:57 UTC</sub>
