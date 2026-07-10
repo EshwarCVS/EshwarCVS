@@ -10,16 +10,16 @@
     "github_username": "EshwarCVS"
   },
   "readme_widgets": {
-    "theme": "radical",
+    "theme": "dark",
     "github_stats": true,
     "streak_stats": true,
-    "top_languages": true,
-    "trophies": true,
+    "top_languages": false,
+    "trophies": false,
     "visitor_counter": true,
-    "activity_graph": true,
-    "contributor_stats": true,
+    "activity_graph": false,
+    "contributor_stats": false,
     "snake_animation": true,
-    "dev_quotes": true,
+    "dev_quotes": false,
     "star_cta": true
   },
   "exclude_repos": [
@@ -214,7 +214,7 @@
     {
       "title": "Free Resume Reviews",
       "description": "Detailed resume feedback for job seekers — formatting, keywords, and role alignment — at no cost.",
-      "cta": "Send your resume via [LinkedIn](https://linkedin.com/in/eshwarchandravidhyasagar) or [email](mailto:thedlaeshwar@gmail.com).",
+      "cta": "Send your resume via [LinkedIn](https://linkedin.com/in/eshwarchandravidhyasagar).",
       "url": "https://www.linkedin.com/posts/eshwarchandravidhyasagar_resumereview-jobsearch-careersupport-activity-7450549822715207680-czvt",
       "period": "2026 — Present",
       "icon": "📋"
@@ -222,7 +222,7 @@
     {
       "title": "SWE Community & Hiring Advocacy",
       "description": "Curating and amplifying software engineering job opportunities, reposting hiring lists for new grads and senior roles, and engaging with the broader tech community on LinkedIn.",
-      "cta": "Hiring managers and job seekers — reach out on [LinkedIn](https://linkedin.com/in/eshwarchandravidhyasagar) or [email](mailto:thedlaeshwar@gmail.com).",
+      "cta": "Hiring managers and job seekers — reach out on [LinkedIn](https://linkedin.com/in/eshwarchandravidhyasagar).",
       "url": "https://linkedin.com/in/eshwarchandravidhyasagar",
       "period": "Ongoing",
       "icon": "📣"

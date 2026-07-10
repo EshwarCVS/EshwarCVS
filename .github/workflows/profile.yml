@@ -1,0 +1,85 @@
+name: Profile
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+  schedule:
+    # Daily at 06:00 UTC (midnight CST)
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  # Gate every push/PR — full repo scan
+  secret-scan:
+    if: github.event_name == 'push' || github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: FasterApiWeb/leash-secrets/action@leash-secrets-v1.2.1
+        with:
+          scan-mode: all
+          fail-on: critical
+
+  # Daily (or manual) — update README, sync data, refresh contribution snake
+  sync-profile:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Scan changed files for secrets
+        uses: FasterApiWeb/leash-secrets/action@leash-secrets-v1.2.1
+        with:
+          scan-mode: diff
+          fail-on: critical
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Re-score featured repos (weekly rubric)
+        run: python scripts/score_featured_repos.py --apply
+
+      - name: Fetch activity data
+        run: python scripts/fetch_activity.py
+
+      - name: Generate README
+        run: python scripts/generate_readme.py
+
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: EshwarCVS
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Publish snake to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          force_orphan: false
+
+      - name: Commit and push profile updates
+        run: |
+          git config user.name "EshwarCVS"
+          git config user.email "thedlaeshwar@gmail.com"
+          git add -A
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+          if git diff --quiet --cached; then
+            git commit --allow-empty -m "chore: daily profile update — ${TIMESTAMP}"
+          else
+            git commit -m "chore: daily profile update — ${TIMESTAMP}"
+          fi
+          git push

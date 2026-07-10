@@ -1,8 +1,5 @@
 """
 Generate GitHub profile README.md from aggregated activity data.
-
-Patterns & tools from:
-https://github.com/abhisheknaiidu/awesome-github-profile-readme
 """
 
 import json
@@ -11,9 +8,9 @@ from pathlib import Path
 from urllib.parse import quote
 
 
-MAX_ACTIVITY_ITEMS = 5
-MAX_FEATURED_REPOS = 3
 MAX_RECENT_REPOS = 3
+MAX_FEATURED_REPOS = 3
+MAX_ACTIVITY_REPOS = 3
 
 DEFAULT_EXCLUDED_REPOS = {
     "eshwarcvs/eshwarcvs",
@@ -21,21 +18,32 @@ DEFAULT_EXCLUDED_REPOS = {
 }
 
 ACCENT = "3949AB"
-BG = "0D1117"
 
+# (devicon folder, svg filename)
 TECH_ICONS = [
-    ("python", "Python"),
-    ("java", "Java"),
-    ("csharp", "C#"),
-    ("scala", "Scala"),
-    ("javascript", "JavaScript"),
-    ("react", "React"),
-    ("docker", "Docker"),
-    ("kubernetes", "Kubernetes"),
-    ("amazonwebservices", "AWS"),
-    ("apachekafka", "Kafka"),
-    ("graphql", "GraphQL"),
-    ("git", "Git"),
+    ("python", "python-original.svg"),
+    ("java", "java-original.svg"),
+    ("csharp", "csharp-original.svg"),
+    ("scala", "scala-original.svg"),
+    ("javascript", "javascript-original.svg"),
+    ("react", "react-original.svg"),
+    ("docker", "docker-original.svg"),
+    ("kubernetes", "kubernetes-original.svg"),
+    ("amazonwebservices", "amazonwebservices-plain-wordmark.svg"),
+    ("apachekafka", "apachekafka-original.svg"),
+    ("graphql", "graphql-plain.svg"),
+    ("git", "git-original.svg"),
+]
+
+SKILL_SHIELDS = [
+    ("Python", "3776AB", "python"),
+    ("Java", "007396", "java"),
+    ("Scala", "DC322F", "scala"),
+    ("Spark", "E25A1C", "apachespark"),
+    ("Kafka", "231F20", "apachekafka"),
+    ("Docker", "2496ED", "docker"),
+    ("AWS", "232F3E", "amazonaws"),
+    ("GraphQL", "E10098", "graphql"),
 ]
 
 
@@ -59,10 +67,11 @@ def format_date(iso_str: str) -> str:
         return iso_str[:10]
 
 
-def truncate(text: str, max_len: int = 80) -> str:
+def truncate(text: str, max_len: int = 120) -> str:
     if not text:
         return ""
-    return text[:max_len] + ("..." if len(text) > max_len else "")
+    text = text.strip()
+    return text if len(text) <= max_len else text[: max_len - 3] + "..."
 
 
 def excluded_repo_names(linkedin: dict) -> set[str]:
@@ -85,281 +94,259 @@ def featured_repo_urls(linkedin: dict) -> set[str]:
 
 
 def hide_repo_param(excluded: set[str]) -> str:
-    names = sorted({full.split("/")[-1] for full in excluded if "/" in full})
-    return ",".join(names)
+    return ",".join(sorted({full.split("/")[-1] for full in excluded if "/" in full}))
 
 
 def tech_icon_row() -> str:
     icons = []
-    for icon, title in TECH_ICONS:
+    for folder, filename in TECH_ICONS:
+        title = folder.replace("amazonwebservices", "AWS").title()
         icons.append(
-            f'<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{icon}/{icon}-original.svg" '
-            f'width="40" height="40" alt="{title}" title="{title}"/>'
+            f'<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{folder}/{filename}" '
+            f'width="38" height="38" alt="{title}"/>'
         )
     return " ".join(icons)
 
 
-# --- awesome-github-profile-readme widget URLs ---
+def skill_shield_row() -> str:
+    badges = []
+    for label, color, logo in SKILL_SHIELDS:
+        badges.append(
+            f"![{label}](https://img.shields.io/badge/{label.replace(' ', '%20')}-{color}"
+            f"?style=flat-square&logo={logo}&logoColor=white)"
+        )
+    return " ".join(badges)
+
 
 def visitor_counter(username: str) -> str:
     return (
-        "https://komarev.com/ghpvc"
-        f"/?username={quote(username)}&label=Profile+views&color={ACCENT}&style=for-the-badge"
+        f"https://komarev.com/ghpvc/?username={quote(username)}"
+        f"&label=Profile+views&color={ACCENT}&style=flat-square"
     )
 
 
-def github_stats_card(username: str, theme: str, excluded: set[str]) -> str:
+def github_stats_markdown(username: str, excluded: set[str]) -> str:
+    """Markdown image — more reliable than raw HTML img on GitHub."""
     hide = hide_repo_param(excluded)
-    return (
+    url = (
         "https://github-readme-stats.vercel.app/api"
-        f"?username={quote(username)}&show_icons=true&theme={theme}&hide_border=true"
-        f"&bg_color={BG}&title_color={ACCENT}&icon_color={ACCENT}"
-        f"&include_all_commits=true&count_private=true&hide={quote(hide)}"
+        f"?username={quote(username)}"
+        "&show_icons=true&theme=dark&hide_border=true"
+        f"&title_color={ACCENT}&icon_color={ACCENT}&text_color=C9D1D9"
+        f"&hide={hide}"
     )
+    return f"![GitHub stats]({url})"
 
 
-def streak_stats_card(username: str, theme: str) -> str:
-    return (
+def streak_stats_markdown(username: str) -> str:
+    url = (
         "https://streak-stats.demolab.com"
-        f"?user={quote(username)}&theme={theme}&hide_border=true"
-        f"&background={BG}&ring={ACCENT}&fire={ACCENT}&currStreakLabel={ACCENT}"
+        f"?user={quote(username)}&theme=dark&hide_border=true"
+        f"&background=0D1117&ring={ACCENT}&fire={ACCENT}&currStreakLabel={ACCENT}"
     )
+    return f"![GitHub streak]({url})"
 
 
-def top_languages_card(username: str, theme: str, excluded: set[str]) -> str:
-    hide = hide_repo_param(excluded)
-    return (
-        "https://github-readme-stats.vercel.app/api/top-langs"
-        f"/?username={quote(username)}&layout=donut-vertical&theme={theme}&hide_border=true"
-        f"&bg_color={BG}&title_color={ACCENT}&hide={quote(hide)}&langs_count=6"
-    )
-
-
-def contributor_stats_card(username: str, theme: str) -> str:
-    return (
-        "https://github-contributor-stats.vercel.app/api"
-        f"?username={quote(username)}&limit=5&theme={theme}&combine_all_yearly_contributions=true"
-        f"&hide_border=true&bg_color={BG}&title_color={ACCENT}"
-    )
-
-
-def activity_graph_card(username: str) -> str:
-    return (
-        "https://github-readme-activity-graph.vercel.app/graph"
-        f"?username={quote(username)}&bg_color={BG}&color={ACCENT}"
-        f"&line={ACCENT}&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Graph"
-    )
-
-
-def trophy_card(username: str) -> str:
-    return (
-        "https://github-profile-trophy.vercel.app"
-        f"/?username={quote(username)}&theme=onedark&no-frame=true&margin-w=8&column=4"
-    )
-
-
-def dev_quote_card(theme: str) -> str:
-    return f"https://quotes-github-readme.vercel.app/api?type=horizontal&theme={theme}"
-
-
-def snake_animation_html(username: str) -> str:
+def snake_markdown(username: str) -> str:
     base = f"https://raw.githubusercontent.com/{username}/{username}/output"
     return f"""<picture>
   <source media="(prefers-color-scheme: dark)" srcset="{base}/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="{base}/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="{base}/github-contribution-grid-snake.svg">
+  <img alt="Contribution snake" src="{base}/github-contribution-grid-snake.svg">
 </picture>"""
 
 
-def format_activity_line(evt: dict, excluded: set[str]) -> str | None:
-    """DenverCoder1-style activity lines from GitHub public events."""
-    typ = evt.get("type", "")
-    repo_full = evt.get("repo", "")
-    if is_excluded_repo(repo_full, excluded):
-        return None
+def header_section(profile: dict, github_user: str, widgets: dict) -> str:
+    name = profile.get("name", "Eshwar Chandra Vidhyasagar")
+    title = profile.get("title", "Software Engineer III")
+    company = profile.get("company", "Walmart Global Tech")
+    linkedin_url = profile.get("linkedin", "https://linkedin.com/in/eshwarchandravidhyasagar")
+    website = profile.get("website", "https://eshwarcvs.github.io")
+    substack_url = profile.get("substack", "https://devdine.substack.com")
 
-    repo = repo_full.split("/")[-1] if "/" in repo_full else repo_full
-    repo_link = f"[{repo}](https://github.com/{repo_full})"
-
-    if typ == "PushEvent":
-        commits = evt.get("commits", [])
-        msg = truncate(commits[0], 55) if commits else "pushed changes"
-        return f"🔥 Pushed to **{repo_link}** — `{msg}`"
-    if typ == "PullRequestEvent":
-        action = evt.get("action", "")
-        title = truncate(evt.get("title", "PR"), 50)
-        url = evt.get("url", "")
-        emoji = {"opened": "🔀", "closed": "✅", "merged": "🎉"}.get(action, "🔀")
-        link = f"[{title}]({url})" if url else title
-        return f"{emoji} {action.title()} PR {link} in **{repo_link}**"
-    if typ == "PullRequestReviewEvent":
-        state = evt.get("review_state", "reviewed")
-        title = truncate(evt.get("pr_title", "PR"), 50)
-        return f"👀 {state} review on **{title}** in **{repo_link}**"
-    if typ == "IssuesEvent":
-        return f"🐛 Issue activity in **{repo_link}**"
-    if typ == "IssueCommentEvent":
-        issue = truncate(evt.get("issue_title", "issue"), 40)
-        return f"💬 Commented on **{issue}** in **{repo_link}**"
-    if typ == "CreateEvent":
-        return f"✨ Created repo **{repo_link}**"
-    if typ == "WatchEvent":
-        return f"⭐ Starred **{repo_link}**"
-    return None
-
-
-def build_activity_section(events: list, excluded: set[str]) -> str:
-    lines: list[str] = []
-    seen: set[str] = set()
-    for evt in events:
-        line = format_activity_line(evt, excluded)
-        if not line:
-            continue
-        # Dedupe: one line per repo per session
-        repo_key = evt.get("repo", "")
-        dedupe_key = f"{evt.get('type')}:{repo_key}"
-        if dedupe_key in seen:
-            continue
-        seen.add(dedupe_key)
-        lines.append(line)
-        if len(lines) >= MAX_ACTIVITY_ITEMS:
-            break
-    if not lines:
-        return ""
-    numbered = "\n".join(f"{i}. {line}" for i, line in enumerate(lines, 1))
-    return f"""
----
-
-### ⚡ Recent GitHub Activity
-
-{numbered}
-"""
-
-
-def analytics_section(username: str, widgets: dict, excluded: set[str]) -> str:
-    theme = widgets.get("theme", "radical")
-    parts: list[str] = []
-
-    if widgets.get("snake_animation", True):
-        parts.append(snake_animation_html(username))
-
-    row1: list[str] = []
-    if widgets.get("github_stats", True):
-        row1.append(
-            f'<img src="{github_stats_card(username, theme, excluded)}" height="165" alt="GitHub stats"/>'
-        )
-    if widgets.get("streak_stats", True):
-        row1.append(
-            f'<img src="{streak_stats_card(username, theme)}" height="165" alt="GitHub streak"/>'
-        )
-    if row1:
-        parts.append("<br/>\n\n" + " ".join(row1))
-
-    if widgets.get("activity_graph", True):
-        parts.append(
-            f'\n<br/>\n\n<img src="{activity_graph_card(username)}" width="100%" alt="Activity graph"/>'
-        )
-
-    row2: list[str] = []
-    if widgets.get("top_languages", True):
-        row2.append(
-            f'<img src="{top_languages_card(username, theme, excluded)}" height="200" alt="Top languages"/>'
-        )
-    if widgets.get("contributor_stats", True):
-        row2.append(
-            f'<img src="{contributor_stats_card(username, theme)}" height="200" alt="Contributor stats"/>'
-        )
-    if row2:
-        parts.append("\n<br/>\n\n" + " ".join(row2))
-
-    if widgets.get("trophies", True):
-        parts.append(
-            f'\n<br/>\n\n<img src="{trophy_card(username)}" width="100%" alt="GitHub trophies"/>'
-        )
-
-    if not parts:
-        return ""
-
-    return (
-        "\n---\n\n<div align=\"center\">\n\n"
-        + "\n\n".join(parts)
-        + "\n\n</div>"
+    first = name.split()[0] if name else "Eshwar"
+    visitor = (
+        f"\n\n![Profile views]({visitor_counter(github_user)})"
+        if widgets.get("visitor_counter", True)
+        else ""
     )
+    title_badge = title.replace(" ", "%20")
+    company_badge = company.replace(" ", "%20")
 
+    return f"""<div align="center">
 
-def star_cta_section(github_user: str, featured_repos: list[dict]) -> str:
-    badges = [
-        f"[![Profile stars](https://img.shields.io/github/stars/{github_user}/{github_user}"
-        f"?style=for-the-badge&logo=github&label=Star+this+profile&color={ACCENT})]"
-        f"(https://github.com/{github_user}/{github_user})",
-    ]
-    for repo in featured_repos[:2]:
-        org = repo.get("org", github_user)
-        name = repo.get("name", "")
-        if not name:
-            continue
-        badges.append(
-            f"[![{name} stars](https://img.shields.io/github/stars/{org}/{name}"
-            f"?style=for-the-badge&logo=github&label={name}&color=181717)]"
-            f"({repo.get('url', '')})"
-        )
-        npm_pkg = repo.get("npm")
-        if npm_pkg:
-            badges.append(
-                f"[![npm downloads](https://img.shields.io/npm/dm/{npm_pkg}"
-                f"?style=for-the-badge&logo=npm&label=npm+downloads)]"
-                f"(https://www.npmjs.com/package/{npm_pkg})"
-            )
-    return f"""
----
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1a237e,100:3949ab&height=120&section=header&text={first}&fontSize=48&fontColor=fff&animation=twinkling" width="100%"/>
 
-<div align="center">
+# {name}
 
-### ⭐ Support Open Source
+[![{title}](https://img.shields.io/badge/{title_badge}-{company_badge}-{ACCENT}?style=for-the-badge)]({linkedin_url})
 
-If my work helps you, a star goes a long way!
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=3949AB&center=true&width=700&lines=Microservices+%26+data+platforms;Open+source+%7C+FasterApiWeb;DevSecOps+for+AI+agents" alt="Typing" />
 
 <br/>
 
-{" ".join(badges)}
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]({linkedin_url})
+[![Substack](https://img.shields.io/badge/Substack-DevDine-FF6719?style=for-the-badge&logo=substack&logoColor=white)]({substack_url})
+[![Portfolio](https://img.shields.io/badge/Portfolio-eshwarcvs.github.io-000?style=for-the-badge&logo=githubpages&logoColor=white)]({website}){visitor}
 
-</div>
-"""
+<br/>
+
+{tech_icon_row()}
+
+</div>"""
+
+
+def experience_section(linkedin: dict) -> str:
+    experience = linkedin.get("experience", [])[:3]
+    if not experience:
+        return ""
+
+    lines = ["\n---\n\n## 💼 Experience\n"]
+    for exp in experience:
+        role = exp.get("role", "")
+        company = exp.get("company", "")
+        period = exp.get("period", "")
+        lines.append(f"**{role}** · {company}  \n`{period}`\n")
+
+    papers = linkedin.get("papers", [])
+    if papers:
+        lines.append("\n### 📄 Publications\n")
+        for paper in papers:
+            title = paper.get("title", "")
+            url = paper.get("url", "")
+            venue = paper.get("venue", "")
+            year = paper.get("year", "")
+            link = f"[{title}]({url})" if url else title
+            lines.append(f"- {link} — *{venue}* ({year})" if year else f"- {link} — *{venue}*")
+
+    skills = linkedin.get("skills", [])
+    if skills:
+        lines.append(f"\n### 🧰 Stack\n\n{skill_shield_row()}\n")
+
+    return "\n".join(lines)
 
 
 def featured_projects_section(featured_repos: list[dict]) -> str:
     if not featured_repos:
         return ""
-    lines = [
-        "\n---\n\n### 🚀 Featured Projects\n",
-        "<table>",
-    ]
+
+    lines = ["\n---\n\n## 🚀 Featured Projects\n"]
     for repo in featured_repos:
         name = repo.get("name", "")
         url = repo.get("url", "")
         org = repo.get("org", "")
         lang = repo.get("language", "")
-        desc = truncate(repo.get("description", ""), 100)
-        highlight = repo.get("highlight", "")
-        lang_shield = (
-            f"![{lang}](https://img.shields.io/badge/{lang.replace(' ', '%20')}-{ACCENT}"
-            f"?style=flat-square&logoColor=white)"
-            if lang else ""
-        )
-        star_shield = (
-            f"![stars](https://img.shields.io/github/stars/{org}/{name}"
-            f"?style=flat-square&label=stars&color=181717)"
-            if org and name else ""
-        )
-        lines.append(f"""<tr>
-<td width="55">🔷</td>
-<td>
-<b><a href="{url}">{name}</a></b> · <code>{org}</code> {lang_shield} {star_shield}<br/>
-<sub>{desc}</sub>
-{f'<br/><sub>✨ {truncate(highlight, 90)}</sub>' if highlight else ''}
-</td>
-</tr>""")
-    lines.append("</table>")
+        desc = truncate(repo.get("description", ""), 140)
+        highlight = truncate(repo.get("highlight", ""), 100)
+        meta = " · ".join(p for p in [org, lang] if p)
+        lines.append(f"**[{name}]({url})** · {meta}  ")
+        lines.append(f"{desc}  ")
+        if highlight and highlight.lower() not in desc.lower():
+            lines.append(f"*{highlight}*  ")
+        lines.append("")
+    return "\n".join(lines)
+
+
+def recent_activity_repos(events: list, excluded: set[str]) -> str:
+    """Up to 3 unique repos from recent events — repo name only."""
+    repos: list[str] = []
+    seen_names: set[str] = set()
+
+    for evt in events:
+        repo_full = evt.get("repo", "")
+        if not repo_full or is_excluded_repo(repo_full, excluded):
+            continue
+        name = repo_full.split("/")[-1].lower()
+        if name in seen_names:
+            continue
+        seen_names.add(name)
+        repos.append(f"- [{repo_full.split('/')[-1]}](https://github.com/{repo_full})")
+        if len(repos) >= MAX_ACTIVITY_REPOS:
+            break
+
+    if not repos:
+        return ""
+
+    return "\n---\n\n## ⚡ Recent Activity\n\n" + "\n".join(repos) + "\n"
+
+
+def contributions_section(
+    github_user: str,
+    widgets: dict,
+    excluded: set[str],
+    stats: dict,
+    year: int,
+) -> str:
+    parts = ["\n---\n\n## 📊 GitHub Contributions\n\n<div align=\"center\">\n\n"]
+
+    ytd = stats.get("total_contributions_ytd", 0)
+    commits = stats.get("commits_ytd", 0)
+    prs = stats.get("prs_ytd", 0)
+    reviews = stats.get("reviews_ytd", 0)
+
+    parts.append(
+        f"![{year} contributions](https://img.shields.io/badge/{year}%20contributions-{ytd}-brightgreen?style=flat-square) "
+        f"![Commits](https://img.shields.io/badge/commits-{commits}-blue?style=flat-square) "
+        f"![PRs](https://img.shields.io/badge/PRs-{prs}-purple?style=flat-square) "
+        f"![Reviews](https://img.shields.io/badge/reviews-{reviews}-orange?style=flat-square)\n\n"
+    )
+
+    if widgets.get("snake_animation", True):
+        parts.append(snake_markdown(github_user) + "\n\n")
+
+    if widgets.get("github_stats", True):
+        parts.append(github_stats_markdown(github_user, excluded) + "\n\n")
+
+    if widgets.get("streak_stats", True):
+        parts.append(streak_stats_markdown(github_user) + "\n\n")
+
+    parts.append("</div>")
+    return "".join(parts)
+
+
+def star_cta_section(github_user: str, featured_repos: list[dict]) -> str:
+    if not featured_repos:
+        return ""
+    badges = [
+        f"[![Star profile](https://img.shields.io/github/stars/{github_user}/{github_user}"
+        f"?style=social&label=Star+profile)](https://github.com/{github_user}/{github_user})",
+    ]
+    for repo in featured_repos[:2]:
+        org, name = repo.get("org", ""), repo.get("name", "")
+        if org and name:
+            badges.append(
+                f"[![{name}](https://img.shields.io/github/stars/{org}/{name}"
+                f"?style=social&label={name})]({repo.get('url', '')})"
+            )
+        npm_pkg = repo.get("npm")
+        if npm_pkg:
+            badges.append(
+                f"[![npm](https://img.shields.io/npm/dm/{npm_pkg}?style=flat-square&logo=npm&label=npm)]"
+                f"(https://www.npmjs.com/package/{npm_pkg})"
+            )
+
+    return (
+        "\n---\n\n<div align=\"center\">\n\n"
+        + " ".join(badges)
+        + "\n\n</div>\n"
+    )
+
+
+def community_section(community: list) -> str:
+    if not community:
+        return ""
+    lines = ["\n---\n\n## 🤝 Community\n"]
+    for item in community:
+        title = item.get("title", "")
+        url = item.get("url", "")
+        desc = item.get("description", "")
+        cta = item.get("cta", "")
+        period = item.get("period", "")
+        period_str = f" *({period})*" if period else ""
+        lines.append(f"**[{title}]({url})**{period_str}  ")
+        lines.append(f"{desc}  ")
+        if cta:
+            lines.append(f"{cta}  ")
+        lines.append("")
     return "\n".join(lines)
 
 
@@ -371,15 +358,8 @@ def generate_readme(data: dict) -> str:
     widgets = linkedin.get("readme_widgets", {})
     github_user = data.get("github_username") or profile.get("github_username", "EshwarCVS")
     substack = data.get("substack", [])
+    stats = github.get("stats", {})
     excluded = excluded_repo_names(linkedin)
-
-    name = profile.get("name", "Eshwar Chandra Vidhyasagar")
-    title = profile.get("title", "Software Engineer III")
-    company = profile.get("company", "Walmart Global Tech")
-    email = profile.get("email", "thedlaeshwar@gmail.com")
-    linkedin_url = profile.get("linkedin", "https://linkedin.com/in/eshwarchandravidhyasagar")
-    website = profile.get("website", "https://eshwarcvs.github.io")
-    substack_url = profile.get("substack", "https://devdine.substack.com")
 
     featured_repos = sorted(
         linkedin.get("featured_repos", []),
@@ -387,198 +367,70 @@ def generate_readme(data: dict) -> str:
     )[:MAX_FEATURED_REPOS]
     featured_urls = featured_repo_urls(linkedin)
 
-    sections: list[str] = []
+    sections = [
+        header_section(profile, github_user, widgets),
+        experience_section(linkedin),
+        featured_projects_section(featured_repos),
+        recent_activity_repos(github.get("recent_events", []), excluded),
+    ]
 
-    # Header
-    sections.append(f"""<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a237e,50:283593,100:3949ab&height=165&section=header&text={name.replace(' ', '%20')}&fontSize=36&fontColor=fff&animation=fadeIn&fontAlignY=40&desc={title.replace(' ', '%20')}%20%40%20{company.replace(' ', '%20')}&descSize=17&descAlignY=60&descAlign=55"/>
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=3949AB&center=true&vCenter=true&width=620&lines=Building+scalable+microservices;Open+source+%26+DevSecOps;Community+contributor" alt="Typing SVG" />
-
-<br/><br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]({linkedin_url})
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:{email})
-[![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)]({substack_url})
-[![Website](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=githubpages&logoColor=white)]({website})
-
-<br/>
-
-{f'![Profile views]({visitor_counter(github_user)})' if widgets.get('visitor_counter', True) else ''}
-
-<br/>
-
-{tech_icon_row()}
-
-</div>""")
-
-    # Analytics block (snake, stats, graph, trophies)
-    analytics = analytics_section(github_user, widgets, excluded)
-    if analytics:
-        sections.append(analytics)
-
-    # Star CTAs — drives stars on OSS + profile repo
-    if widgets.get("star_cta", True) and featured_repos:
-        sections.append(star_cta_section(github_user, featured_repos))
-
-    # Rich activity feed (DenverCoder1 pattern)
-    activity = build_activity_section(github.get("recent_events", []), excluded)
-    if activity:
-        sections.append(activity)
-
-    # Featured projects
-    sections.append(featured_projects_section(featured_repos))
-
-    # Recently updated
+    # Recently updated (compact)
     own_repos = github.get("own_repos", [])
-    recent_repos = [
+    recent = [
         r for r in own_repos
         if r.get("url", "").rstrip("/") not in featured_urls
         and not is_excluded_repo(r.get("full_name") or r.get("name", ""), excluded)
     ]
-    if recent_repos:
-        sections.append("""
----
-
-### 🕐 Recently Updated
-
-| Repo | Lang | ⭐ | Updated |
-|:---|:---:|:---:|:---|
-""")
-        for repo in recent_repos[:MAX_RECENT_REPOS]:
-            name_r = repo.get("full_name") or repo.get("name", "")
+    if recent:
+        lines = ["\n---\n\n## 🕐 Recently Updated\n"]
+        for repo in recent[:MAX_RECENT_REPOS]:
+            name = repo.get("full_name") or repo.get("name", "")
             url = repo.get("url", "")
             lang = repo.get("language", "") or "—"
-            stars = repo.get("stars", 0)
-            pushed = format_date(repo.get("pushed_at", "")) or "—"
-            sections.append(f"| [{name_r}]({url}) | `{lang}` | {stars} | {pushed} |\n")
+            lines.append(f"- [{name}]({url}) · `{lang}`")
+        sections.append("\n".join(lines) + "\n")
 
-    # Experience + publications
-    if linkedin:
-        sections.append("""
----
+    sections.append(community_section(linkedin.get("community", [])))
 
-### 💼 Experience
-""")
-        for exp in linkedin.get("experience", [])[:3]:
-            sections.append(
-                f"- 🏢 **{exp.get('role', '')}** · `{exp.get('company', '')}` · *{exp.get('period', '')}*"
-            )
-
-        papers = linkedin.get("papers", [])
-        if papers:
-            sections.append("\n**📄 Publications**\n")
-            for paper in papers:
-                title_p = paper.get("title", "")
-                url = paper.get("url", "")
-                venue = paper.get("venue", "")
-                year = paper.get("year", "")
-                year_str = f" ({year})" if year else ""
-                link = f"[{title_p}]({url})" if url else title_p
-                sections.append(f"- 📑 {link} — *{venue}*{year_str}")
-
-    # Community
-    community = linkedin.get("community", [])
-    if community:
-        sections.append("""
----
-
-### 🤝 Community
-
-<table>
-""")
-        for item in community:
-            icon = item.get("icon", "🤝")
-            title_c = item.get("title", "")
-            url = item.get("url", "")
-            desc = item.get("description", "")
-            cta = item.get("cta", "")
-            period = item.get("period", "")
-            period_str = f" · *{period}*" if period else ""
-            sections.append(f"""<tr>
-<td width="50">{icon}</td>
-<td>
-<b><a href="{url}">{title_c}</a></b>{period_str}<br/>
-{desc}
-{f'<br/><br/>{cta}' if cta else ''}
-</td>
-</tr>""")
-        sections.append("</table>")
-
-    # Technical writing
     if substack:
-        sections.append("\n---\n\n### ✍️ Technical Writing\n")
+        lines = ["\n---\n\n## ✍️ Technical Writing\n"]
         for post in substack[:3]:
-            title_p = post.get("title", "")
+            title = post.get("title", "")
             url = post.get("url", "")
             date = format_date(post.get("published", "")) or post.get("published", "")
-            sections.append(f"- 📝 [{title_p}]({url}) · `{date}`")
+            lines.append(f"- [{title}]({url}) · {date}")
+        sections.append("\n".join(lines) + "\n")
 
     sections.append("""
 ---
 
-### 📚 Learn What I Learn
+## 📚 Learn What I Learn
 
-<div align="center">
-
-[![Learning Journal](https://img.shields.io/badge/📓_vigilant--lamp-Learning_Journal-3949AB?style=for-the-badge)](https://github.com/EshwarCVS/vigilant-lamp)
-
-</div>
+[vigilant-lamp](https://github.com/EshwarCVS/vigilant-lamp) — technical learning journal
 """)
 
-    # Interests
     interests = linkedin.get("interests", [])
     if interests:
-        sections.append("""
----
-
-### 🎯 Beyond Code
-
-| | Interest | About |
-|:---:|:---|:---|
-""")
+        lines = ["\n---\n\n## 🎯 Beyond Code\n"]
         for item in interests:
-            icon = item.get("icon", "✨")
             label = item.get("label", "")
             url = item.get("url", "")
             desc = item.get("description", "")
-            label_cell = f"**[{label}]({url})**" if url else f"**{label}**"
-            sections.append(f"| {icon} | {label_cell} | {desc} |\n")
+            icon = item.get("icon", "")
+            link = f"[{label}]({url})" if url else label
+            lines.append(f"- {icon} **{link}** — {desc}")
+        sections.append("\n".join(lines) + "\n")
 
-    # Dev quote
-    if widgets.get("dev_quotes", True):
-        theme = widgets.get("theme", "radical")
-        sections.append(f"""
----
+    sections.append(contributions_section(github_user, widgets, excluded, stats, now.year))
 
-<div align="center">
+    if widgets.get("star_cta", True):
+        sections.append(star_cta_section(github_user, featured_repos))
 
-<img src="{dev_quote_card(theme)}" alt="Dev quote"/>
+    sections.append(
+        f"\n---\n\n<sub>Auto-updated {now.strftime('%b %d, %Y %H:%M UTC')}</sub>\n"
+    )
 
-</div>
-""")
-
-    # Footer
-    sections.append(f"""
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3949ab,100:1a237e&height=90&section=footer&text=Thanks%20for%20visiting!&fontSize=22&fontColor=fff&animation=fadeIn" />
-
-<br/>
-
-*🤖 Auto-updated {now.strftime('%b %d, %Y at %H:%M UTC')} · [GitHub Actions](https://github.com/EshwarCVS/EshwarCVS/actions)*
-
-<sub>Built with tools from <a href="https://github.com/abhisheknaiidu/awesome-github-profile-readme">awesome-github-profile-readme</a></sub>
-
-</div>
-""")
-
-    return "\n".join(sections)
+    return "\n".join(s for s in sections if s)
 
 
 if __name__ == "__main__":
@@ -593,6 +445,5 @@ if __name__ == "__main__":
     if linkedin_path.exists():
         data["linkedin"] = json.loads(linkedin_path.read_text())
 
-    readme = generate_readme(data)
-    Path("README.md").write_text(readme)
+    Path("README.md").write_text(generate_readme(data))
     print("README.md generated successfully.")
