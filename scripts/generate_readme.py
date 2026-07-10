@@ -77,10 +77,6 @@ def featured_repo_urls(linkedin: dict) -> set[str]:
     return {r.get("url", "").rstrip("/") for r in linkedin.get("featured_repos", []) if r.get("url")}
 
 
-def hide_repo_param(excluded: set[str]) -> str:
-    return ",".join(sorted({full.split("/")[-1] for full in excluded if "/" in full}))
-
-
 def skill_shield_row() -> str:
     badges = []
     for label, color, logo in SKILL_SHIELDS:
@@ -98,25 +94,24 @@ def visitor_counter(username: str) -> str:
     )
 
 
-def github_stats_markdown(username: str, excluded: set[str]) -> str:
-    """GitHub readme stats card — lowercase username matches GitHub's canonical handle."""
-    hide = hide_repo_param(excluded)
-    url = (
-        "https://github-readme-stats.vercel.app/api"
-        f"?username={quote(username.lower())}"
-        "&show_icons=true&hide_border=true&include_all_commits=true"
-        f"&hide={hide}"
+def github_stats_markdown(username: str) -> str:
+    """Stats card via mirror — main vercel.app endpoint is often 503."""
+    params = (
+        f"?username={quote(username)}"
+        "&show_icons=true&hide_border=true&theme=dark"
+        f"&title_color={ACCENT}&icon_color={ACCENT}&text_color=C9D1D9"
     )
-    return f'<img src="{url}" alt="GitHub stats" width="100%"/>'
+    url = f"https://github-readme-stats-sigma-five.vercel.app/api{params}"
+    return f"![GitHub stats]({url})"
 
 
 def streak_stats_markdown(username: str) -> str:
     url = (
         "https://streak-stats.demolab.com"
-        f"?user={quote(username.lower())}&theme=dark&hide_border=true"
+        f"?user={quote(username)}&theme=dark&hide_border=true"
         f"&background=0D1117&ring={ACCENT}&fire={ACCENT}&currStreakLabel={ACCENT}"
     )
-    return f'<img src="{url}" alt="GitHub streak" width="100%"/>'
+    return f"![GitHub streak]({url})"
 
 
 def header_section(profile: dict, github_user: str, widgets: dict) -> str:
@@ -133,15 +128,26 @@ def header_section(profile: dict, github_user: str, widgets: dict) -> str:
     )
     email_badge = email.replace("@", "%40")
 
-    return f"""<h2>Hi, {intro_name} here</h2>
+    return f"""<table>
+<tr>
+<td valign="top">
 
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=790b7611yp0jiunk7v8tqhv65lyfs6218cr3ywi8tmttpjl5&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="200">
+### Hi, {intro_name} here
 
-<p><em>{title} at {company} <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></em></p>
+*{title} at {company}* <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28" alt="wave">
+
+<br/>
 
 [![Gmail](https://img.shields.io/badge/Gmail-{email_badge}-D14836?style=flat-square&logo=gmail&logoColor=white)]({linkedin_url})
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-eshwar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)]({linkedin_url})
-[![GitHub followers](https://img.shields.io/github/followers/{github_user.lower()}?label=follow&style=social)](https://github.com/{github_user}){visitor}
+[![GitHub followers](https://img.shields.io/github/followers/{github_user}?label=follow&style=social)](https://github.com/{github_user}){visitor}
+
+</td>
+<td width="210" align="right" valign="top">
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=790b7611yp0jiunk7v8tqhv65lyfs6218cr3ywi8tmttpjl5&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="200" alt="coding">
+</td>
+</tr>
+</table>
 """
 
 
@@ -155,11 +161,11 @@ def experience_section(linkedin: dict) -> str:
         role = exp.get("role", "")
         company = exp.get("company", "")
         period = exp.get("period", "")
-        lines.append(f"**{role}** · {company} · {period}  ")
+        lines.append(f"- **{role}** · {company} · *{period}*")
 
     papers = linkedin.get("papers", [])
     if papers:
-        lines.append("\n### 📄 Publications\n")
+        lines.append("\n**📄 Publications**  ")
         for paper in papers:
             title = paper.get("title", "")
             url = paper.get("url", "")
@@ -168,9 +174,8 @@ def experience_section(linkedin: dict) -> str:
             link = f"[{title}]({url})" if url else title
             lines.append(f"- {link} — *{venue}* ({year})" if year else f"- {link} — *{venue}*")
 
-    skills = linkedin.get("skills", [])
-    if skills:
-        lines.append(f"\n### 🧰 Stack\n\n{skill_shield_row()}\n")
+    if linkedin.get("skills"):
+        lines.append(f"\n**🧰 Stack**  \n\n{skill_shield_row()}\n")
 
     return "\n".join(lines)
 
@@ -241,32 +246,44 @@ def recent_activity_repos(events: list, excluded: set[str]) -> str:
 def contributions_section(
     github_user: str,
     widgets: dict,
-    excluded: set[str],
-    stats: dict,
-    year: int,
+    star_cta: str = "",
 ) -> str:
     parts = ["\n---\n\n## 📊 GitHub Contributions\n\n<div align=\"center\">\n\n"]
 
-    ytd = stats.get("total_contributions_ytd", 0)
-    commits = stats.get("commits_ytd", 0)
-    prs = stats.get("prs_ytd", 0)
-    reviews = stats.get("reviews_ytd", 0)
-
-    parts.append(
-        f"![{year} contributions](https://img.shields.io/badge/{year}%20contributions-{ytd}-brightgreen?style=flat-square) "
-        f"![Commits](https://img.shields.io/badge/commits-{commits}-blue?style=flat-square) "
-        f"![PRs](https://img.shields.io/badge/PRs-{prs}-purple?style=flat-square) "
-        f"![Reviews](https://img.shields.io/badge/reviews-{reviews}-orange?style=flat-square)\n\n"
-    )
-
     if widgets.get("github_stats", True):
-        parts.append(github_stats_markdown(github_user, excluded) + "\n\n")
+        parts.append(github_stats_markdown(github_user) + "\n\n")
 
     if widgets.get("streak_stats", True):
         parts.append(streak_stats_markdown(github_user) + "\n\n")
 
+    if star_cta:
+        parts.append(star_cta + "\n")
+
     parts.append("</div>")
     return "".join(parts)
+
+
+def star_cta_badges(github_user: str, featured_repos: list[dict]) -> str:
+    if not featured_repos:
+        return ""
+    badges = [
+        f"[![Star profile](https://img.shields.io/github/stars/{github_user}/{github_user}"
+        f"?style=social&label=Star+profile)](https://github.com/{github_user}/{github_user})",
+    ]
+    for repo in featured_repos[:2]:
+        org, name = repo.get("org", ""), repo.get("name", "")
+        if org and name:
+            badges.append(
+                f"[![{name}](https://img.shields.io/github/stars/{org}/{name}"
+                f"?style=social&label={name})]({repo.get('url', '')})"
+            )
+        npm_pkg = repo.get("npm")
+        if npm_pkg:
+            badges.append(
+                f"[![npm](https://img.shields.io/npm/dm/{npm_pkg}?style=flat-square&logo=npm&label=npm)]"
+                f"(https://www.npmjs.com/package/{npm_pkg})"
+            )
+    return " ".join(badges)
 
 
 def technical_writing_section(linkedin: dict, substack: list) -> str:
@@ -288,34 +305,6 @@ def technical_writing_section(linkedin: dict, substack: list) -> str:
     if len(lines) == 1:
         return ""
     return "\n".join(lines) + "\n"
-
-
-def star_cta_section(github_user: str, featured_repos: list[dict]) -> str:
-    if not featured_repos:
-        return ""
-    badges = [
-        f"[![Star profile](https://img.shields.io/github/stars/{github_user}/{github_user}"
-        f"?style=social&label=Star+profile)](https://github.com/{github_user}/{github_user})",
-    ]
-    for repo in featured_repos[:2]:
-        org, name = repo.get("org", ""), repo.get("name", "")
-        if org and name:
-            badges.append(
-                f"[![{name}](https://img.shields.io/github/stars/{org}/{name}"
-                f"?style=social&label={name})]({repo.get('url', '')})"
-            )
-        npm_pkg = repo.get("npm")
-        if npm_pkg:
-            badges.append(
-                f"[![npm](https://img.shields.io/npm/dm/{npm_pkg}?style=flat-square&logo=npm&label=npm)]"
-                f"(https://www.npmjs.com/package/{npm_pkg})"
-            )
-
-    return (
-        "\n---\n\n<div align=\"center\">\n\n"
-        + " ".join(badges)
-        + "\n\n</div>\n"
-    )
 
 
 def community_section(community: list) -> str:
@@ -345,7 +334,6 @@ def generate_readme(data: dict) -> str:
     widgets = linkedin.get("readme_widgets", {})
     github_user = data.get("github_username") or profile.get("github_username", "EshwarCVS")
     substack = data.get("substack", [])
-    stats = github.get("stats", {})
     excluded = excluded_repo_names(linkedin)
 
     featured_repos = sorted(
@@ -354,10 +342,14 @@ def generate_readme(data: dict) -> str:
     )[:MAX_FEATURED_REPOS]
     featured_urls = featured_repo_urls(linkedin)
 
+    star_cta = ""
+    if widgets.get("star_cta", True):
+        star_cta = star_cta_badges(github_user, featured_repos)
+
     sections = [
         header_section(profile, github_user, widgets),
         experience_section(linkedin),
-        contributions_section(github_user, widgets, excluded, stats, now.year),
+        contributions_section(github_user, widgets, star_cta),
         featured_projects_section(featured_repos),
         recent_activity_repos(github.get("recent_events", []), excluded),
     ]
@@ -392,9 +384,6 @@ def generate_readme(data: dict) -> str:
             link = f"[{label}]({url})" if url else label
             lines.append(f"- {icon} **{link}** — {desc}")
         sections.append("\n".join(lines) + "\n")
-
-    if widgets.get("star_cta", True):
-        sections.append(star_cta_section(github_user, featured_repos))
 
     sections.append(
         f"\n---\n\n<sub>Auto-updated {now.strftime('%b %d, %Y %H:%M UTC')}</sub>\n"

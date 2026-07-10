@@ -1,31 +1,41 @@
-<h2>Hi, Eshwar Thedla here</h2>
+<table>
+<tr>
+<td valign="top">
 
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=790b7611yp0jiunk7v8tqhv65lyfs6218cr3ywi8tmttpjl5&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="200">
+### Hi, Eshwar Thedla here
 
-<p><em>Software Engineer III at Walmart Global Tech <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></em></p>
+*Software Engineer III at Walmart Global Tech* <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28" alt="wave">
+
+<br/>
 
 [![Gmail](https://img.shields.io/badge/Gmail-thedlaeshwar%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](https://linkedin.com/in/eshwarchandravidhyasagar)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-eshwar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/eshwarchandravidhyasagar)
-[![GitHub followers](https://img.shields.io/github/followers/eshwarcvs?label=follow&style=social)](https://github.com/EshwarCVS)
+[![GitHub followers](https://img.shields.io/github/followers/EshwarCVS?label=follow&style=social)](https://github.com/EshwarCVS)
 
 ![Profile views](https://komarev.com/ghpvc/?username=EshwarCVS&label=Profile+views&color=3949AB&style=flat-square)
+
+</td>
+<td width="210" align="right" valign="top">
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=790b7611yp0jiunk7v8tqhv65lyfs6218cr3ywi8tmttpjl5&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="200" alt="coding">
+</td>
+</tr>
+</table>
 
 
 ---
 
 ## 💼 Experience
 
-**Software Engineer III** · Walmart Global Tech · May 2025 - Present  
-**Software Developer - 2** · United Wholesale Mortgage · Feb 2024 - May 2025  
-**Software Development Engineer** · Amazon · Jun 2022 - Feb 2024  
+- **Software Engineer III** · Walmart Global Tech · *May 2025 - Present*
+- **Software Developer - 2** · United Wholesale Mortgage · *Feb 2024 - May 2025*
+- **Software Development Engineer** · Amazon · *Jun 2022 - Feb 2024*
 
-### 📄 Publications
-
+**📄 Publications**  
 - [ShellCast: North Carolina (Web Application and Analysis Code)](https://doi.org/10.5281/zenodo.7121144) — *Zenodo* (2022)
 - [A Study of Structure Learning of Bayesian Network using Averaged Extended TreeAugmented Naive Classifier](https://jcreview.com/archives/volume-7/issue-18/1700) — *Journal of Critical Reviews* (2020)
 - [A Study of Freeze-Frame File System with Tamper-Resistant Framework](https://jcreview.com/archives/volume-7/issue-4/5197) — *Journal of Critical Reviews* (2020)
 
-### 🧰 Stack
+**🧰 Stack**  
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white) ![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat-square&logo=scala&logoColor=white) ![Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
 
@@ -36,12 +46,11 @@
 
 <div align="center">
 
-![2026 contributions](https://img.shields.io/badge/2026%20contributions-0-brightgreen?style=flat-square) ![Commits](https://img.shields.io/badge/commits-0-blue?style=flat-square) ![PRs](https://img.shields.io/badge/PRs-0-purple?style=flat-square) ![Reviews](https://img.shields.io/badge/reviews-0-orange?style=flat-square)
+![GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=EshwarCVS&show_icons=true&hide_border=true&theme=dark&title_color=3949AB&icon_color=3949AB&text_color=C9D1D9)
 
-<img src="https://github-readme-stats.vercel.app/api?username=eshwarcvs&show_icons=true&hide_border=true&include_all_commits=true&hide=eshwarcvs,eshwarcvs.github.io" alt="GitHub stats" width="100%"/>
+![GitHub streak](https://streak-stats.demolab.com?user=EshwarCVS&theme=dark&hide_border=true&background=0D1117&ring=3949AB&fire=3949AB&currStreakLabel=3949AB)
 
-<img src="https://streak-stats.demolab.com?user=eshwarcvs&theme=dark&hide_border=true&background=0D1117&ring=3949AB&fire=3949AB&currStreakLabel=3949AB" alt="GitHub streak" width="100%"/>
-
+[![Star profile](https://img.shields.io/github/stars/EshwarCVS/EshwarCVS?style=social&label=Star+profile)](https://github.com/EshwarCVS/EshwarCVS) [![leash-secrets](https://img.shields.io/github/stars/FasterApiWeb/leash-secrets?style=social&label=leash-secrets)](https://github.com/FasterApiWeb/leash-secrets) [![npm](https://img.shields.io/npm/dm/leash-secrets?style=flat-square&logo=npm&label=npm)](https://www.npmjs.com/package/leash-secrets) [![save-gcp-local](https://img.shields.io/github/stars/EshwarCVS/save-gcp-local?style=social&label=save-gcp-local)](https://github.com/EshwarCVS/save-gcp-local)
 </div>
 
 ---
@@ -126,13 +135,4 @@ Hiring managers and job seekers — reach out on [LinkedIn](https://linkedin.com
 
 ---
 
-<div align="center">
-
-[![Star profile](https://img.shields.io/github/stars/EshwarCVS/EshwarCVS?style=social&label=Star+profile)](https://github.com/EshwarCVS/EshwarCVS) [![leash-secrets](https://img.shields.io/github/stars/FasterApiWeb/leash-secrets?style=social&label=leash-secrets)](https://github.com/FasterApiWeb/leash-secrets) [![npm](https://img.shields.io/npm/dm/leash-secrets?style=flat-square&logo=npm&label=npm)](https://www.npmjs.com/package/leash-secrets) [![save-gcp-local](https://img.shields.io/github/stars/EshwarCVS/save-gcp-local?style=social&label=save-gcp-local)](https://github.com/EshwarCVS/save-gcp-local)
-
-</div>
-
-
----
-
-<sub>Auto-updated Jul 10, 2026 06:04 UTC</sub>
+<sub>Auto-updated Jul 10, 2026 06:23 UTC</sub>
