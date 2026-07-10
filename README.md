@@ -73,11 +73,11 @@ If my work helps you, a star goes a long way!
 
 ### ⚡ Recent GitHub Activity
 
-1. 🔥 Pushed to **[save-gcp-local](https://github.com/EshwarCVS/save-gcp-local)** — `pushed changes`
-2. ✨ Created repo **[save-gcp-local](https://github.com/EshwarCVS/save-gcp-local)**
-3. ⭐ Starred **[great_expectations](https://github.com/fivetran/great_expectations)**
-4. 🐛 Issue activity in **[leash-secrets](https://github.com/FasterApiWeb/leash-secrets)**
-5. 💬 Commented on **feat(sarvam): add Sarvam provider suppor...** in **[instructor](https://github.com/567-labs/instructor)**
+1. 🔥 Pushed to **[leash-secrets](https://github.com/tapheret2/leash-secrets)** — `pushed changes`
+2. 🔥 Pushed to **[leash-secrets](https://github.com/FasterApiWeb/leash-secrets)** — `pushed changes`
+3. 🐛 Issue activity in **[leash-secrets](https://github.com/FasterApiWeb/leash-secrets)**
+4. 👀 approved review on **** in **[leash-secrets](https://github.com/FasterApiWeb/leash-secrets)**
+5. 🔥 Pushed to **[save-gcp-local](https://github.com/EshwarCVS/save-gcp-local)** — `pushed changes`
 
 
 ---
@@ -203,7 +203,7 @@ Curating and amplifying software engineering job opportunities, reposting hiring
 
 <br/>
 
-*🤖 Auto-updated Jul 10, 2026 at 05:18 UTC · [GitHub Actions](https://github.com/EshwarCVS/EshwarCVS/actions)*
+*🤖 Auto-updated Jul 10, 2026 at 05:25 UTC · [GitHub Actions](https://github.com/EshwarCVS/EshwarCVS/actions)*
 
 <sub>Built with tools from <a href="https://github.com/abhisheknaiidu/awesome-github-profile-readme">awesome-github-profile-readme</a></sub>
 
