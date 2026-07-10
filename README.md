@@ -24,18 +24,19 @@ Building scalable microservices · Open source · Community contributor
 
 ## ⚡ Recent Activity
 
+- ⚡ **[EshwarCVS](https://github.com/EshwarCVS/EshwarCVS)** — pushed changes
 - ⚡ **[save-gcp-local](https://github.com/EshwarCVS/save-gcp-local)** — pushed changes
 
 ## ⭐ Featured Repositories
 
 _Hand-picked projects — OSS impact, org work ([FasterApiWeb](https://github.com/FasterApiWeb)), and tools I actively maintain._
 
-- **[leash-secrets](https://github.com/FasterApiWeb/leash-secrets)** `FasterApiWeb` `JavaScript` — Secret detection for AI agents — 71 patterns, Cursor rules, and GitHub Action.
+- **[leash-secrets](https://github.com/FasterApiWeb/leash-secrets)** `FasterApiWeb` `JavaScript` — your AI writes fast. leash-secrets makes sure it doesn't run away with your secrets. 71 patterns, 20...
   > Maintained OSS — DevSecOps for AI coding agents (npm published)
-- **[FasterAPI](https://github.com/FasterApiWeb/FasterAPI)** `FasterApiWeb` `Python` — High-performance ASGI framework — drop-in FastAPI replacement.
-  > Org flagship — performance-focused Python web framework
-- **[vigilant-lamp](https://github.com/EshwarCVS/vigilant-lamp)** `EshwarCVS` — Technical learning journal and engineering notes.
-  > Learning journal — CS concepts and system design
+- **[save-gcp-local](https://github.com/EshwarCVS/save-gcp-local)** `EshwarCVS` `Python` — Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost — zero DAG edits.
+  > Personal project — Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost — zero D...
+- **[FasterAPI](https://github.com/FasterApiWeb/FasterAPI)** `FasterApiWeb` `Python` — High-performance ASGI framework — drop-in FastAPI replacement. 8.7x faster routing, 9.4x faster JSON...
+  > FasterApiWeb — High-performance ASGI framework — drop-in FastAPI replacement. 8.7x faster routi...
 
 ## 💼 Professional
 
@@ -78,6 +79,6 @@ Check out my learning journal: [vigilant-lamp](https://github.com/EshwarCVS/vigi
 
 <div align="center">
 
-*🤖 Auto-updated on Jul 10, 2026 at 04:32 UTC via [GitHub Actions](https://github.com/EshwarCVS/EshwarCVS/actions)*
+*🤖 Auto-updated on Jul 10, 2026 at 04:46 UTC via [GitHub Actions](https://github.com/EshwarCVS/EshwarCVS/actions)*
 
 </div>
