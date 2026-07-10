@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1a237e,100:3949ab&height=120&section=header&text=Eshwar&fontSize=48&fontColor=fff&animation=twinkling" width="100%"/>
-
 # Eshwar Chandra Vidhyasagar
 
 [![Software Engineer III](https://img.shields.io/badge/Software%20Engineer%20III-Walmart%20Global%20Tech-3949AB?style=for-the-badge)](https://linkedin.com/in/eshwarchandravidhyasagar)
