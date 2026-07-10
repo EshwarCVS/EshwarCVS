@@ -1,0 +1,401 @@
+{
+  "scored_at": "2026-07-10T04:15:50.284164+00:00",
+  "rubric_version": 1,
+  "criteria": [
+    {
+      "id": "ownership",
+      "label": "Ownership & maintenance",
+      "weight": 20,
+      "description": "You own or actively maintain the repo; not a passive fork."
+    },
+    {
+      "id": "impact",
+      "label": "Impact & visibility",
+      "weight": 20,
+      "description": "Stars, published packages, docs, or blog coverage."
+    },
+    {
+      "id": "relevance",
+      "label": "Career relevance",
+      "weight": 20,
+      "description": "Aligns with SWE, OSS, DevSecOps, or framework work you want to be known for."
+    },
+    {
+      "id": "recency",
+      "label": "Recency",
+      "weight": 20,
+      "description": "Pushed within the last 90 days scores highest."
+    },
+    {
+      "id": "story",
+      "label": "Narrative clarity",
+      "weight": 20,
+      "description": "Can be explained in one line on a resume or interview."
+    }
+  ],
+  "selected": [
+    {
+      "full_name": "FasterApiWeb/leash-secrets",
+      "score": 78.0,
+      "priority": 1
+    },
+    {
+      "full_name": "EshwarCVS/save-gcp-local",
+      "score": 78.0,
+      "priority": 2
+    },
+    {
+      "full_name": "FasterApiWeb/FasterAPI",
+      "score": 74.0,
+      "priority": 3
+    }
+  ],
+  "rankings": [
+    {
+      "full_name": "EshwarCVS/save-gcp-local",
+      "name": "save-gcp-local",
+      "org": "EshwarCVS",
+      "url": "https://github.com/EshwarCVS/save-gcp-local",
+      "description": "Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost \u2014 zero DAG edits.",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2026-07-10T00:44:31Z",
+      "total": 78.0,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 8.0,
+        "relevance": 20.0,
+        "recency": 10.0,
+        "story": 20.0,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 0d ago",
+        "recency damped (no boost/stars)"
+      ]
+    },
+    {
+      "full_name": "FasterApiWeb/leash-secrets",
+      "name": "leash-secrets",
+      "org": "FasterApiWeb",
+      "url": "https://github.com/FasterApiWeb/leash-secrets",
+      "description": "your AI writes fast. leash-secrets makes sure it doesn't run away with your secrets. 71 patterns, 20+ agents.",
+      "language": "JavaScript",
+      "stars": 0,
+      "pushed_at": "2026-07-09T17:47:47Z",
+      "total": 78.0,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 8.0,
+        "relevance": 20.0,
+        "recency": 10.0,
+        "story": 20.0,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 0d ago",
+        "recency damped (no boost/stars)"
+      ]
+    },
+    {
+      "full_name": "FasterApiWeb/FasterAPI",
+      "name": "FasterAPI",
+      "org": "FasterApiWeb",
+      "url": "https://github.com/FasterApiWeb/FasterAPI",
+      "description": "High-performance ASGI framework \u2014 drop-in FastAPI replacement. 8.7x faster routing, 9.4x faster JSON, radix tree router, compiled DI, uvloop, msgspec.",
+      "language": "Python",
+      "stars": 2,
+      "pushed_at": "2026-04-29T03:52:40Z",
+      "total": 74.0,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 4,
+        "relevance": 20.0,
+        "recency": 10.0,
+        "story": 20.0,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 72d ago"
+      ]
+    },
+    {
+      "full_name": "EshwarCVS/illumio.coding-exercise",
+      "name": "illumio.coding-exercise",
+      "org": "EshwarCVS",
+      "url": "https://github.com/EshwarCVS/illumio.coding-exercise",
+      "description": "This project parses AWS VPC flow logs and maps each row to a tag based on a lookup table.",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2024-10-08T04:53:52Z",
+      "total": 68.5,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 8.0,
+        "relevance": 20.0,
+        "recency": 0.5,
+        "story": 20.0,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 639d ago",
+        "recency damped (no boost/stars)"
+      ]
+    },
+    {
+      "full_name": "EshwarCVS/Truth-Maintenance-System",
+      "name": "Truth-Maintenance-System",
+      "org": "EshwarCVS",
+      "url": "https://github.com/EshwarCVS/Truth-Maintenance-System",
+      "description": "Truth maintenence system, a knowledge representation method for representing both beliefs and their dependencies.",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2021-04-21T03:02:53Z",
+      "total": 68.5,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 8.0,
+        "relevance": 20.0,
+        "recency": 0.5,
+        "story": 20.0,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 1906d ago",
+        "recency damped (no boost/stars)"
+      ]
+    },
+    {
+      "full_name": "EshwarCVS/Speed-managing-using-Clocks",
+      "name": "Speed-managing-using-Clocks",
+      "org": "EshwarCVS",
+      "url": "https://github.com/EshwarCVS/Speed-managing-using-Clocks",
+      "description": "This is basic code which is used in media players. The code is written in Python using tkinter.",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2018-03-25T05:25:53Z",
+      "total": 68.5,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 8.0,
+        "relevance": 20.0,
+        "recency": 0.5,
+        "story": 20.0,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 3028d ago",
+        "recency damped (no boost/stars)"
+      ]
+    },
+    {
+      "full_name": "FasterApiWeb/pr-risk-scorer",
+      "name": "pr-risk-scorer",
+      "org": "FasterApiWeb",
+      "url": "https://github.com/FasterApiWeb/pr-risk-scorer",
+      "description": "Assess the PR, respond with risk score",
+      "language": "TypeScript",
+      "stars": 1,
+      "pushed_at": "2026-04-25T23:17:40Z",
+      "total": 66.5,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 2,
+        "relevance": 20.0,
+        "recency": 10.0,
+        "story": 14.5,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 75d ago"
+      ]
+    },
+    {
+      "full_name": "EshwarCVS/WolfWR",
+      "name": "WolfWR",
+      "org": "EshwarCVS",
+      "url": "https://github.com/EshwarCVS/WolfWR",
+      "description": "WolfCity wholesale-store chain",
+      "language": "Java",
+      "stars": 0,
+      "pushed_at": "2021-04-20T19:48:17Z",
+      "total": 61.0,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 8.0,
+        "relevance": 20.0,
+        "recency": 0.5,
+        "story": 12.5,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 1906d ago",
+        "recency damped (no boost/stars)"
+      ]
+    },
+    {
+      "full_name": "EshwarCVS/Locamages",
+      "name": "Locamages",
+      "org": "EshwarCVS",
+      "url": "https://github.com/EshwarCVS/Locamages",
+      "description": "MERN stack web application",
+      "language": "JavaScript",
+      "stars": 0,
+      "pushed_at": "2021-07-09T23:40:10Z",
+      "total": 60.0,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 8.0,
+        "relevance": 20.0,
+        "recency": 0.5,
+        "story": 11.5,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 1826d ago",
+        "recency damped (no boost/stars)"
+      ]
+    },
+    {
+      "full_name": "EshwarCVS/inventory-management",
+      "name": "inventory-management",
+      "org": "EshwarCVS",
+      "url": "https://github.com/EshwarCVS/inventory-management",
+      "description": "Inventory Management Tool",
+      "language": "C#",
+      "stars": 0,
+      "pushed_at": "2025-02-21T05:02:24Z",
+      "total": 59.8,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 8.0,
+        "relevance": 20.0,
+        "recency": 0.5,
+        "story": 11.25,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 503d ago",
+        "recency damped (no boost/stars)"
+      ]
+    },
+    {
+      "full_name": "EshwarCVS/vigilant-lamp",
+      "name": "vigilant-lamp",
+      "org": "EshwarCVS",
+      "url": "https://github.com/EshwarCVS/vigilant-lamp",
+      "description": "Learn Little everyday",
+      "language": "",
+      "stars": 0,
+      "pushed_at": "2025-05-26T21:50:06Z",
+      "total": 56.8,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 8.0,
+        "relevance": 18.0,
+        "recency": 0.5,
+        "story": 10.25,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 409d ago",
+        "recency damped (no boost/stars)"
+      ]
+    },
+    {
+      "full_name": "EshwarCVS/sglang",
+      "name": "sglang",
+      "org": "EshwarCVS",
+      "url": "https://github.com/EshwarCVS/sglang",
+      "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+      "language": "Python",
+      "stars": 1,
+      "pushed_at": "2026-07-09T04:39:54Z",
+      "total": 52.0,
+      "breakdown": {
+        "ownership": 5.0,
+        "impact": 2,
+        "relevance": 20.0,
+        "recency": 20.0,
+        "story": 20.0,
+        "manual_boost": 0.0,
+        "fork_penalty": -15.0
+      },
+      "notes": [
+        "fork \u2014 lower ownership score",
+        "last push 0d ago"
+      ]
+    },
+    {
+      "full_name": "EshwarCVS/duckdb",
+      "name": "duckdb",
+      "org": "EshwarCVS",
+      "url": "https://github.com/EshwarCVS/duckdb",
+      "description": "DuckDB is an analytical in-process SQL database management system",
+      "language": "C++",
+      "stars": 1,
+      "pushed_at": "2026-07-09T04:37:51Z",
+      "total": 52.0,
+      "breakdown": {
+        "ownership": 5.0,
+        "impact": 2,
+        "relevance": 20.0,
+        "recency": 20.0,
+        "story": 20.0,
+        "manual_boost": 0.0,
+        "fork_penalty": -15.0
+      },
+      "notes": [
+        "fork \u2014 lower ownership score",
+        "last push 0d ago"
+      ]
+    },
+    {
+      "full_name": "EshwarCVS/web-programming",
+      "name": "web-programming",
+      "org": "EshwarCVS",
+      "url": "https://github.com/EshwarCVS/web-programming",
+      "description": "Lab programs for WPS",
+      "language": "HTML",
+      "stars": 0,
+      "pushed_at": "2018-05-01T09:14:52Z",
+      "total": 50.5,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 8.0,
+        "relevance": 12.0,
+        "recency": 0.5,
+        "story": 10.0,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 2991d ago",
+        "recency damped (no boost/stars)"
+      ]
+    },
+    {
+      "full_name": "EshwarCVS/great_expectations",
+      "name": "great_expectations",
+      "org": "EshwarCVS",
+      "url": "https://github.com/EshwarCVS/great_expectations",
+      "description": "Always know what to expect from your data.",
+      "language": "Python",
+      "stars": 1,
+      "pushed_at": "2026-06-30T05:34:38Z",
+      "total": 47.5,
+      "breakdown": {
+        "ownership": 5.0,
+        "impact": 2,
+        "relevance": 20.0,
+        "recency": 20.0,
+        "story": 15.5,
+        "manual_boost": 0.0,
+        "fork_penalty": -15.0
+      },
+      "notes": [
+        "fork \u2014 lower ownership score",
+        "last push 9d ago"
+      ]
+    }
+  ]
+}

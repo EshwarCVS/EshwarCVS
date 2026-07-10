@@ -1,83 +1,83 @@
-<h2> Hi, Eshwar Thedla here</h2>
+<div align="center">
 
-<img align='right' src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=790b7611yp0jiunk7v8tqhv65lyfs6218cr3ywi8tmttpjl5&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="200">
-<p><em>Software Developer III at Walmart Global Tech    <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
-</em></p>
+# Hi, I'm Eshwar Chandra Vidhyasagar 👋
 
-[![](https://img.shields.io/badge/Gmail-thedlaeshwar@gmail.com-red)](mailto:thedlaeshwar@gmail.com)
-[![Linkedin: Eshwar Chandra Vidhyasagar](https://img.shields.io/badge/-eshwar-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/eshwarchandravidhyasagar/)](https://www.linkedin.com/in/eshwarchandravidhyasagar/)
-[![GitHub eshwarcvs](https://img.shields.io/github/followers/eshwarcvs?label=follow&style=social)](https://github.com/EshwarCVS)
+**Software Engineer III** @ Walmart Global Tech
 
+Building scalable microservices · Open source · Community contributor
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/eshwarchandravidhyasagar)
+[![Website](https://img.shields.io/badge/Website-eshwarcvs.github.io-green?style=flat-square&logo=github)](https://eshwarcvs.github.io)
+
+</div>
 ---
-## More about me  
 
-```javascript
-const eshwar = {
-    pronouns: "He" | "Him",
-    askMeAbout: ["Full-stack Development", "Backend Development"],
-    technologies: {
-        cross-platform: {
-            .NET Core, Spring Boot, React Native
-        }
-        frontEnd: {
-            js: ["React"],
-            css: ["materialize", "material-ui"]
-        },
-        backEnd: {
-            js: ["Express", "Node"],
-            .net: ["ASP.NET Core"],
-            python: [],
-        },
-        api: {
-            RESTful, graphQL
-        }
-        databases: ["sql", "mariadb", "mongo", "sqlite"],
-        misc: [ "Azure", "Git", "Dynatrace", "Alteryx", "Kafka", "Socket.IO"]
-    },
-    architecture: ["Progressive web applications", "Single page applications"],
-    currentProject: "I am contributing to open source projects and focusing on solutions to enhance social commerce strategies",
-    Fav Quote: "Every problem is solved by yet another indirection."
-};
-```
+## 📊 2026 Contributions
 
+| Metric | Count |
+|--------|-------|
+| 🟢 Total Contributions | **0** |
+| 📝 Commits | **0** |
+| 🔀 Pull Requests | **0** |
+| 👀 Code Reviews | **0** |
+| 🐛 Issues | **0** |
 
-## 𝗪𝗵𝗮𝘁 𝗜 know and u𝘀𝗲
+## ⚡ Recent Activity
 
-<table>
-  <tbody>
-    <tr valign="top">
-      <td width="15%" align="center">
-        <span>𝗣𝘆𝘁𝗵𝗼𝗻</span><br><br><br>
-        <img height="64px" src="https://cdn.svgporn.com/logos/python.svg">
-      </td>
-      <td width="15%" align="center">
-        <span>Java</span><br><br><br>
-        <img height="64px" src="https://cdn.svgporn.com/logos/java.svg">
-      </td>
-      <td width="15%" align="center">
-        <span>Javascript</span><br><br><br>
-        <img height="64px" src="https://cdn.svgporn.com/logos/javascript.svg">
-      </td>
-      <td width="15%" align="center">
-        <span>𝗖#</span><br><br><br>
-        <img height="64px" src="https://cdn.svgporn.com/logos/c-sharp.svg">
-      </td>
-    </tr>
-  </tbody>
-</table>
+- ⚡ **[save-gcp-local](https://github.com/EshwarCVS/save-gcp-local)** — pushed changes
+
+## ⭐ Featured Repositories
+
+_Hand-picked projects — OSS impact, org work ([FasterApiWeb](https://github.com/FasterApiWeb)), and tools I actively maintain._
+
+- **[leash-secrets](https://github.com/FasterApiWeb/leash-secrets)** `FasterApiWeb` `JavaScript` — Secret detection for AI agents — 71 patterns, Cursor rules, and GitHub Action.
+  > Maintained OSS — DevSecOps for AI coding agents (npm published)
+- **[FasterAPI](https://github.com/FasterApiWeb/FasterAPI)** `FasterApiWeb` `Python` — High-performance ASGI framework — drop-in FastAPI replacement.
+  > Org flagship — performance-focused Python web framework
+- **[vigilant-lamp](https://github.com/EshwarCVS/vigilant-lamp)** `EshwarCVS` — Technical learning journal and engineering notes.
+  > Learning journal — CS concepts and system design
+
+## 💼 Professional
+
+- **Software Engineer III** @ Walmart Global Tech (May 2025 - Present)
+- **Software Developer - 2** @ United Wholesale Mortgage (Feb 2024 - May 2025)
+- **Software Development Engineer** @ Amazon (Jun 2022 - Feb 2024)
+
+**Key Skills:** Python · Java · C# · Scala · JavaScript · Apache Spark · Apache Airflow · Spring Boot · React · GraphQL
+
+### 📄 Publications
+
+- [ShellCast: North Carolina (Web Application and Analysis Code)](https://doi.org/10.5281/zenodo.7121144) — Zenodo
+- [A Study of Structure Learning of Bayesian Network using Averaged Extended TreeAugmented Naive Classifier](https://jcreview.com/archives/volume-7/issue-18/1700) — Journal of Critical Reviews
+- [A Study of Freeze-Frame File System with Tamper-Resistant Framework](https://jcreview.com/archives/volume-7/issue-4/5197) — Journal of Critical Reviews
+
+## 🤝 Community
+
+- **[Free Resume Reviews](https://www.linkedin.com/posts/eshwarchandravidhyasagar_resumereview-jobsearch-careersupport-activity-7450549822715207680-czvt)** (2026 — Present) — Detailed resume feedback for job seekers — formatting, keywords, and role alignment — at no cost. Message me on LinkedIn...
+- **[SWE Community & Hiring Advocacy](https://linkedin.com/in/eshwarchandravidhyasagar)** (Ongoing) — Curating and amplifying software engineering job opportunities, reposting hiring lists for new grads and senior roles, a...
+
+## ✍️ Technical Writing
+
+- [Your AI Coder Writes Fast. It Also Writes API Keys Into Source Files.](https://devdine.substack.com/p/your-ai-coder-writes-fast-it-also) — Jul 2026
+  > Open-source skill for Cursor, Claude Code, and Copilot — leash-secrets.
+
+## 📚 Learn What I Learn
+
+Check out my learning journal: [vigilant-lamp](https://github.com/EshwarCVS/vigilant-lamp)
 
 
-## You can learn a little from here
+## 🎯 Interests
 
-- Learn what I learn: https://github.com/EshwarCVS/vigilant-lamp
-
-
-## Stats
-
-![Github stats](https://github-readme-stats.vercel.app/api?username=eshwarcvs&show_icons=true&hide_border=true)
-
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em>I love connecting with different people so if you want to say hi, I'll be happy to meet you more! :)</em>
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) 
+- **[Technical writing](https://devdine.substack.com)** — Software engineering, security, and AI developer tooling
+- **[Open source](https://github.com/FasterApiWeb)** — Building developer tools with FasterApiWeb and personal projects
+- **[Community mentorship](https://linkedin.com/in/eshwarchandravidhyasagar)** — Resume reviews and career support for engineers
+- **Cooking** — Regional cuisine and meal prep — a creative break from code
+- **Gym & fitness** — Strength training and staying consistent outside work
+- **Reading** — Non-fiction on habits, productivity, and leadership
 ---
-⭐️ From [@eshwarcvs](https://github.com/eshwarcvs)
+
+<div align="center">
+
+*🤖 Auto-updated on Jul 10, 2026 at 04:32 UTC via [GitHub Actions](https://github.com/EshwarCVS/EshwarCVS/actions)*
+
+</div>

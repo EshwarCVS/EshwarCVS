@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "max_featured": 3,
+  "reevaluate_days": 7,
+  "sources": {
+    "users": ["EshwarCVS"],
+    "orgs": ["FasterApiWeb"]
+  },
+  "criteria": [
+    {
+      "id": "ownership",
+      "label": "Ownership & maintenance",
+      "weight": 20,
+      "description": "You own or actively maintain the repo; not a passive fork."
+    },
+    {
+      "id": "impact",
+      "label": "Impact & visibility",
+      "weight": 20,
+      "description": "Stars, published packages, docs, or blog coverage."
+    },
+    {
+      "id": "relevance",
+      "label": "Career relevance",
+      "weight": 20,
+      "description": "Aligns with SWE, OSS, DevSecOps, or framework work you want to be known for."
+    },
+    {
+      "id": "recency",
+      "label": "Recency",
+      "weight": 20,
+      "description": "Pushed within the last 90 days scores highest."
+    },
+    {
+      "id": "story",
+      "label": "Narrative clarity",
+      "weight": 20,
+      "description": "Can be explained in one line on a resume or interview."
+    }
+  ],
+  "pinned": [
+    {
+      "full_name": "FasterApiWeb/leash-secrets",
+      "priority": 1,
+      "highlight": "Maintained OSS — DevSecOps for AI coding agents (npm published)"
+    }
+  ],
+  "manual_boosts": {},
+  "available_manual_boosts": {
+    "_note": "Reference only — not applied while manual_boosts is empty. Copy a key into manual_boosts to enable.",
+    "FasterApiWeb/leash-secrets": 25,
+    "FasterApiWeb/FasterAPI": 20,
+    "FasterApiWeb/pr-risk-scorer": 15,
+    "EshwarCVS/vigilant-lamp": 12
+  },
+  "exclude": [
+    "EshwarCVS/EshwarCVS",
+    "EshwarCVS/eshwarcvs.github.io"
+  ],
+  "highlight_templates": {
+    "org": "FasterApiWeb — {description}",
+    "personal": "Personal project — {description}",
+    "default": "{description}"
+  }
+}

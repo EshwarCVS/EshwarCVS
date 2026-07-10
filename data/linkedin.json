@@ -1,0 +1,228 @@
+{
+  "experience": [
+    {
+      "role": "Software Engineer III",
+      "company": "Walmart Global Tech",
+      "period": "May 2025 - Present",
+      "description": "Designing large-scale data pipelines with Scala and Apache Spark; implemented CDC for real-time data mutations. Built GraphQL APIs for social trends and content moderation; multi-tenancy support in Apache Airflow; high-throughput content ingestion pipelines. Executed 10+ production changes with zero incidents."
+    },
+    {
+      "role": "Software Developer - 2",
+      "company": "United Wholesale Mortgage",
+      "period": "Feb 2024 - May 2025",
+      "description": "Developed C# microservices for PDF generation (Aspose, CosmosDB, Redis) supporting 1K daily requests. Built Kafka-integrated services handling 1.2M peak requests; integrated ADFS and MSAL for secure document routing. Led test automation with xUnit, Stryker.Net, and Testcontainers."
+    },
+    {
+      "role": "Software Development Engineer",
+      "company": "Amazon",
+      "period": "Jun 2022 - Feb 2024",
+      "description": "Enhanced Buy Now checkout with JSP and Java, boosting conversion rates by 25%. Maintained 99% uptime during Prime Day (112K sales/min). Led API migration and EU MFA rollout, reducing unauthorized access by 80%. Resolved 100+ defects and reduced checkout clicks by 20%."
+    },
+    {
+      "role": "Research Programmer",
+      "company": "NC State Dept. of Biological & Agricultural Engineering",
+      "period": "May 2021 - May 2022",
+      "description": "Engineered a Random Forest Regression model in Python for ShellCast, training daily with 350+ weather inputs and achieving 80% accuracy. Deployed a Flask-based web app for real-time harvest closure forecasts serving 20K+ shellfish growers."
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Deloitte India",
+      "period": "Jul 2019 - Dec 2020",
+      "description": "Automated SQL Server data loading with Python, boosting dashboard performance by 97%. Led Quicksight dashboards for 58 countries, reducing manual tax analysis by 98.5%. Automated tax workflows with Alteryx and Python; received SPOT Award."
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S. Computer Science",
+      "school": "North Carolina State University",
+      "year": "2022"
+    },
+    {
+      "degree": "B.E. Computer Science",
+      "school": "Vasavi College of Engineering, Osmania University",
+      "year": "2019"
+    }
+  ],
+  "skills": [
+    "Python",
+    "Java",
+    "C#",
+    "Scala",
+    "JavaScript",
+    "Apache Spark",
+    "Apache Airflow",
+    "Spring Boot",
+    "React",
+    "GraphQL",
+    "Kafka",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Azure",
+    "SQL",
+    "Redis",
+    "Microservices",
+    "Terraform",
+    "OpenSearch"
+  ],
+  "papers": [
+    {
+      "title": "ShellCast: North Carolina (Web Application and Analysis Code)",
+      "url": "https://doi.org/10.5281/zenodo.7121144",
+      "venue": "Zenodo",
+      "year": "2022"
+    },
+    {
+      "title": "A Study of Structure Learning of Bayesian Network using Averaged Extended TreeAugmented Naive Classifier",
+      "authors": [
+        "E.C.V. Thedla",
+        "S. Thota"
+      ],
+      "url": "https://jcreview.com/archives/volume-7/issue-18/1700",
+      "doi": "10.31838/jcr.07.18.356",
+      "venue": "Journal of Critical Reviews",
+      "volume": "7",
+      "issue": "18",
+      "pages": "2875\u20132880",
+      "year": "2020",
+      "citation": "E. Chandra, V. Thedla, and S. Thota, \"A Study of Structure Learning of Bayesian Network using Averaged Extended TreeAugmented Naive Classifier,\" Journal of Critical Reviews, vol. 7, no. 18, pp. 2875\u20132880, 2020."
+    },
+    {
+      "title": "A Study of Freeze-Frame File System with Tamper-Resistant Framework",
+      "authors": [
+        "S. Thota",
+        "E.C.V. Thedla",
+        "S. Yamsani"
+      ],
+      "url": "https://jcreview.com/archives/volume-7/issue-4/5197",
+      "doi": "10.31838/jcr.07.04.331",
+      "venue": "Journal of Critical Reviews",
+      "volume": "7",
+      "issue": "4",
+      "pages": "2110\u20132115",
+      "year": "2020",
+      "citation": "S. Thota, E.C.V. Thedla, and S. Yamsani, \"A Study of Freeze-Frame File System with Tamper-Resistant Framework,\" Journal of Critical Reviews, vol. 7, no. 4, pp. 2110\u20132115, 2020."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Facial Expression Recognition with Keras",
+      "issuer": "Coursera",
+      "year": "2020",
+      "url": "https://coursera.org/account/accomplishments/certificate/R38KEQVDVDKM"
+    },
+    {
+      "name": "Tableau Author",
+      "issuer": "Tableau Software",
+      "year": "2020",
+      "url": "https://youracclaim.com/badges/0a145faf-206d-404c-9897-4f65fcc34b38"
+    },
+    {
+      "name": "Alteryx Designer Advanced",
+      "issuer": "Alteryx",
+      "year": "2019"
+    },
+    {
+      "name": "Alteryx Designer Core",
+      "issuer": "Alteryx",
+      "year": "2019"
+    },
+    {
+      "name": "SAP Certified Development Associate \u2014 ABAP with SAP NetWeaver 7.40",
+      "issuer": "Prudentia",
+      "year": "2018"
+    },
+    {
+      "name": "Programming for Everybody (Getting Started with Python)",
+      "issuer": "Coursera",
+      "year": "2017",
+      "url": "https://coursera.org/account/accomplishments/certificate/7USB58FUTVZW"
+    }
+  ],
+  "featured_repos": [
+    {
+      "priority": 1,
+      "name": "leash-secrets",
+      "org": "FasterApiWeb",
+      "url": "https://github.com/FasterApiWeb/leash-secrets",
+      "description": "your AI writes fast. leash-secrets makes sure it doesn't run away with your secrets. 71 patterns, 20+ agents.",
+      "language": "JavaScript",
+      "highlight": "Maintained OSS \u2014 DevSecOps for AI coding agents (npm published)",
+      "score": 78.0,
+      "scored_at": "2026-07-10T04:15:50.285417+00:00"
+    },
+    {
+      "priority": 2,
+      "name": "save-gcp-local",
+      "org": "EshwarCVS",
+      "url": "https://github.com/EshwarCVS/save-gcp-local",
+      "description": "Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost \u2014 zero DAG edits.",
+      "language": "Python",
+      "highlight": "Personal project \u2014 Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost \u2014 zero D...",
+      "score": 78.0,
+      "scored_at": "2026-07-10T04:15:50.285427+00:00"
+    },
+    {
+      "priority": 3,
+      "name": "FasterAPI",
+      "org": "FasterApiWeb",
+      "url": "https://github.com/FasterApiWeb/FasterAPI",
+      "description": "High-performance ASGI framework \u2014 drop-in FastAPI replacement. 8.7x faster routing, 9.4x faster JSON, radix tree router, compiled DI, uvloop, msgspec.",
+      "language": "Python",
+      "highlight": "FasterApiWeb \u2014 High-performance ASGI framework \u2014 drop-in FastAPI replacement. 8.7x faster routi...",
+      "score": 74.0,
+      "scored_at": "2026-07-10T04:15:50.285431+00:00"
+    }
+  ],
+  "featured_articles": [
+    {
+      "title": "Your AI Coder Writes Fast. It Also Writes API Keys Into Source Files.",
+      "url": "https://devdine.substack.com/p/your-ai-coder-writes-fast-it-also",
+      "summary": "Open-source skill for Cursor, Claude Code, and Copilot \u2014 leash-secrets.",
+      "published": "Jul 2026"
+    }
+  ],
+  "community": [
+    {
+      "title": "Free Resume Reviews",
+      "description": "Detailed resume feedback for job seekers \u2014 formatting, keywords, and role alignment \u2014 at no cost. Message me on LinkedIn with your resume.",
+      "url": "https://www.linkedin.com/posts/eshwarchandravidhyasagar_resumereview-jobsearch-careersupport-activity-7450549822715207680-czvt",
+      "period": "2026 \u2014 Present"
+    },
+    {
+      "title": "SWE Community & Hiring Advocacy",
+      "description": "Curating and amplifying software engineering job opportunities, reposting hiring lists for new grads and senior roles, and engaging with the broader tech community on LinkedIn.",
+      "url": "https://linkedin.com/in/eshwarchandravidhyasagar",
+      "period": "Ongoing"
+    }
+  ],
+  "interests": [
+    {
+      "label": "Technical writing",
+      "description": "Software engineering, security, and AI developer tooling",
+      "url": "https://devdine.substack.com"
+    },
+    {
+      "label": "Open source",
+      "description": "Building developer tools with FasterApiWeb and personal projects",
+      "url": "https://github.com/FasterApiWeb"
+    },
+    {
+      "label": "Community mentorship",
+      "description": "Resume reviews and career support for engineers",
+      "url": "https://linkedin.com/in/eshwarchandravidhyasagar"
+    },
+    {
+      "label": "Cooking",
+      "description": "Regional cuisine and meal prep \u2014 a creative break from code"
+    },
+    {
+      "label": "Gym & fitness",
+      "description": "Strength training and staying consistent outside work"
+    },
+    {
+      "label": "Reading",
+      "description": "Non-fiction on habits, productivity, and leadership"
+    }
+  ]
+}
