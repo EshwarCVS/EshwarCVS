@@ -1,4 +1,31 @@
 {
+  "profile": {
+    "name": "Eshwar Chandra Vidhyasagar",
+    "title": "Software Engineer III",
+    "company": "Walmart Global Tech",
+    "email": "thedlaeshwar@gmail.com",
+    "linkedin": "https://linkedin.com/in/eshwarchandravidhyasagar",
+    "website": "https://eshwarcvs.github.io",
+    "substack": "https://devdine.substack.com",
+    "github_username": "EshwarCVS"
+  },
+  "readme_widgets": {
+    "theme": "radical",
+    "github_stats": true,
+    "streak_stats": true,
+    "top_languages": true,
+    "trophies": true,
+    "visitor_counter": true,
+    "activity_graph": true,
+    "contributor_stats": true,
+    "snake_animation": true,
+    "dev_quotes": true,
+    "star_cta": true
+  },
+  "exclude_repos": [
+    "EshwarCVS/EshwarCVS",
+    "EshwarCVS/eshwarcvs.github.io"
+  ],
   "experience": [
     {
       "role": "Software Engineer III",
@@ -147,7 +174,8 @@
       "url": "https://github.com/FasterApiWeb/leash-secrets",
       "description": "your AI writes fast. leash-secrets makes sure it doesn't run away with your secrets. 71 patterns, 20+ agents.",
       "language": "JavaScript",
-      "highlight": "Maintained OSS \u2014 DevSecOps for AI coding agents (npm published)",
+      "highlight": "Maintained OSS — DevSecOps for AI coding agents (npm published)",
+      "npm": "leash-secrets",
       "score": 78.0,
       "scored_at": "2026-07-10T04:15:50.285417+00:00"
     },
@@ -185,44 +213,57 @@
   "community": [
     {
       "title": "Free Resume Reviews",
-      "description": "Detailed resume feedback for job seekers \u2014 formatting, keywords, and role alignment \u2014 at no cost. Message me on LinkedIn with your resume.",
+      "description": "Detailed resume feedback for job seekers — formatting, keywords, and role alignment — at no cost.",
+      "cta": "Send your resume via [LinkedIn](https://linkedin.com/in/eshwarchandravidhyasagar) or [email](mailto:thedlaeshwar@gmail.com).",
       "url": "https://www.linkedin.com/posts/eshwarchandravidhyasagar_resumereview-jobsearch-careersupport-activity-7450549822715207680-czvt",
-      "period": "2026 \u2014 Present"
+      "period": "2026 — Present",
+      "icon": "📋"
     },
     {
       "title": "SWE Community & Hiring Advocacy",
       "description": "Curating and amplifying software engineering job opportunities, reposting hiring lists for new grads and senior roles, and engaging with the broader tech community on LinkedIn.",
+      "cta": "Hiring managers and job seekers — reach out on [LinkedIn](https://linkedin.com/in/eshwarchandravidhyasagar) or [email](mailto:thedlaeshwar@gmail.com).",
       "url": "https://linkedin.com/in/eshwarchandravidhyasagar",
-      "period": "Ongoing"
+      "period": "Ongoing",
+      "icon": "📣"
     }
   ],
   "interests": [
     {
       "label": "Technical writing",
-      "description": "Software engineering, security, and AI developer tooling",
-      "url": "https://devdine.substack.com"
+      "description": "Software engineering, security & AI tooling",
+      "url": "https://devdine.substack.com",
+      "icon": "✍️"
     },
     {
       "label": "Open source",
-      "description": "Building developer tools with FasterApiWeb and personal projects",
-      "url": "https://github.com/FasterApiWeb"
+      "description": "Developer tools with FasterApiWeb",
+      "url": "https://github.com/FasterApiWeb",
+      "icon": "🛠️"
     },
     {
       "label": "Community mentorship",
-      "description": "Resume reviews and career support for engineers",
-      "url": "https://linkedin.com/in/eshwarchandravidhyasagar"
+      "description": "Resume reviews & career support",
+      "url": "https://linkedin.com/in/eshwarchandravidhyasagar",
+      "icon": "🤝"
     },
     {
       "label": "Cooking",
-      "description": "Regional cuisine and meal prep \u2014 a creative break from code"
+      "description": "Regional recipes & meal prep",
+      "url": "https://devdine.substack.com/",
+      "icon": "🍳"
     },
     {
       "label": "Gym & fitness",
-      "description": "Strength training and staying consistent outside work"
+      "description": "Strength training & high-protein meals",
+      "url": "https://devdine.substack.com/",
+      "icon": "💪"
     },
     {
       "label": "Reading",
-      "description": "Non-fiction on habits, productivity, and leadership"
+      "description": "Book summaries & takeaways",
+      "url": "https://devdine.substack.com",
+      "icon": "📚"
     }
   ]
 }
