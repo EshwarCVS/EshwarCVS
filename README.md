@@ -1,40 +1,23 @@
-<div align="center">
+<h2>Hi, Eshwar Thedla here</h2>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1a237e,100:3949ab&height=120&section=header&text=Eshwar&fontSize=48&fontColor=fff&animation=twinkling" width="100%"/>
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=790b7611yp0jiunk7v8tqhv65lyfs6218cr3ywi8tmttpjl5&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="200">
 
-# Eshwar Chandra Vidhyasagar
+<p><em>Software Engineer III at Walmart Global Tech <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></em></p>
 
-[![Software Engineer III](https://img.shields.io/badge/Software%20Engineer%20III-Walmart%20Global%20Tech-3949AB?style=for-the-badge)](https://linkedin.com/in/eshwarchandravidhyasagar)
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=3949AB&center=true&width=700&lines=Microservices+%26+data+platforms;Open+source+%7C+FasterApiWeb;DevSecOps+for+AI+agents" alt="Typing" />
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/eshwarchandravidhyasagar)
-[![Substack](https://img.shields.io/badge/Substack-DevDine-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://devdine.substack.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-eshwarcvs.github.io-000?style=for-the-badge&logo=githubpages&logoColor=white)](https://eshwarcvs.github.io)
+[![Gmail](https://img.shields.io/badge/Gmail-thedlaeshwar%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](https://linkedin.com/in/eshwarchandravidhyasagar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-eshwar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/eshwarchandravidhyasagar)
+[![GitHub followers](https://img.shields.io/github/followers/eshwarcvs?label=follow&style=social)](https://github.com/EshwarCVS)
 
 ![Profile views](https://komarev.com/ghpvc/?username=EshwarCVS&label=Profile+views&color=3949AB&style=flat-square)
 
-<br/>
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="38" height="38" alt="Python"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="38" height="38" alt="Java"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="38" height="38" alt="Csharp"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" width="38" height="38" alt="Scala"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="38" height="38" alt="Javascript"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="38" height="38" alt="React"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="38" height="38" alt="Docker"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg" width="38" height="38" alt="Kubernetes"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="38" height="38" alt="Aws"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" width="38" height="38" alt="Apachekafka"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" width="38" height="38" alt="Graphql"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="38" height="38" alt="Git"/>
-
-</div>
 
 ---
 
 ## 💼 Experience
 
-**Software Engineer III** · Walmart Global Tech  
-`May 2025 - Present`
-
-**Software Developer - 2** · United Wholesale Mortgage  
-`Feb 2024 - May 2025`
-
-**Software Development Engineer** · Amazon  
-`Jun 2022 - Feb 2024`
-
+**Software Engineer III** · Walmart Global Tech · May 2025 - Present  
+**Software Developer - 2** · United Wholesale Mortgage · Feb 2024 - May 2025  
+**Software Development Engineer** · Amazon · Jun 2022 - Feb 2024  
 
 ### 📄 Publications
 
@@ -49,28 +32,63 @@
 
 ---
 
+## 📊 GitHub Contributions
+
+<div align="center">
+
+![2026 contributions](https://img.shields.io/badge/2026%20contributions-0-brightgreen?style=flat-square) ![Commits](https://img.shields.io/badge/commits-0-blue?style=flat-square) ![PRs](https://img.shields.io/badge/PRs-0-purple?style=flat-square) ![Reviews](https://img.shields.io/badge/reviews-0-orange?style=flat-square)
+
+<img src="https://github-readme-stats.vercel.app/api?username=eshwarcvs&show_icons=true&hide_border=true&include_all_commits=true&hide=eshwarcvs,eshwarcvs.github.io" alt="GitHub stats" width="100%"/>
+
+<img src="https://streak-stats.demolab.com?user=eshwarcvs&theme=dark&hide_border=true&background=0D1117&ring=3949AB&fire=3949AB&currStreakLabel=3949AB" alt="GitHub streak" width="100%"/>
+
+</div>
+
+---
+
 ## 🚀 Featured Projects
 
-**[leash-secrets](https://github.com/FasterApiWeb/leash-secrets)** · FasterApiWeb · JavaScript  
-your AI writes fast. leash-secrets makes sure it doesn't run away with your secrets. 71 patterns, 20+ agents.  
-*Maintained OSS — DevSecOps for AI coding agents (npm published)*  
+<table>
+<tr>
+<td width="100%">
+<b><a href="https://github.com/FasterApiWeb/leash-secrets">leash-secrets</a></b> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square" alt="JavaScript"/> <a href="https://www.npmjs.com/package/leash-secrets"><img src="https://img.shields.io/npm/v/leash-secrets?style=flat-square&logo=npm&label=npm" alt="npm"/></a><br/>
+<sub>FasterApiWeb</sub><br/><br/>
+your AI writes fast. leash-secrets makes sure it doesn't run away with your secrets. 71 patterns, 20+ agents.
+<br/><br/><i>Maintained OSS — DevSecOps for AI coding agents (npm published)</i>
+</td>
+</tr>
+</table>
 
-**[save-gcp-local](https://github.com/EshwarCVS/save-gcp-local)** · EshwarCVS · Python  
-Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost — zero DAG edits.  
-*Personal project — Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost — zero...*  
+<table>
+<tr>
+<td width="100%">
+<b><a href="https://github.com/EshwarCVS/save-gcp-local">save-gcp-local</a></b> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" alt="Python"/><br/>
+<sub>EshwarCVS</sub><br/><br/>
+Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost — zero DAG edits.
+<br/><br/><i>Personal project — Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost — zero...</i>
+</td>
+</tr>
+</table>
 
-**[FasterAPI](https://github.com/FasterApiWeb/FasterAPI)** · FasterApiWeb · Python  
-High-performance ASGI framework — drop-in FastAPI replacement. 8.7x faster routing, 9.4x faster JSON, radix tree router, compiled DI, uvl...  
-*FasterApiWeb — High-performance ASGI framework — drop-in FastAPI replacement. 8.7x faster routi...*  
+<table>
+<tr>
+<td width="100%">
+<b><a href="https://github.com/FasterApiWeb/FasterAPI">FasterAPI</a></b> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" alt="Python"/><br/>
+<sub>FasterApiWeb</sub><br/><br/>
+High-performance ASGI framework — drop-in FastAPI replacement. 8.7x faster routing, 9.4x faster JSON, radix tree router, compiled DI, uvloop, msgspec.
+<br/><br/><i>FasterApiWeb — High-performance ASGI framework — drop-in FastAPI replacement. 8.7x faster routi...</i>
+</td>
+</tr>
+</table>
 
 
 ---
 
 ## ⚡ Recent Activity
 
-- [leash-secrets](https://github.com/FasterApiWeb/leash-secrets)
 - [save-gcp-local](https://github.com/EshwarCVS/save-gcp-local)
 - [great_expectations](https://github.com/fivetran/great_expectations)
+- [leash-secrets](https://github.com/FasterApiWeb/leash-secrets)
 
 
 ---
@@ -81,7 +99,7 @@ High-performance ASGI framework — drop-in FastAPI replacement. 8.7x faster rou
 Detailed resume feedback for job seekers — formatting, keywords, and role alignment — at no cost.  
 Send your resume via [LinkedIn](https://linkedin.com/in/eshwarchandravidhyasagar).  
 
-**[SWE Community & Hiring Advocacy](https://linkedin.com/in/eshwarchandravidhyasagar)** *(Ongoing)*  
+**[SWE Community & Hiring Advocacy](https://linkedin.com/in/eshwarchandravidhyasagar)** *(2025 - Ongoing)*  
 Curating and amplifying software engineering job opportunities, reposting hiring lists for new grads and senior roles, and engaging with the broader tech community on LinkedIn.  
 Hiring managers and job seekers — reach out on [LinkedIn](https://linkedin.com/in/eshwarchandravidhyasagar).  
 
@@ -90,14 +108,8 @@ Hiring managers and job seekers — reach out on [LinkedIn](https://linkedin.com
 
 ## ✍️ Technical Writing
 
+- **Learn what I learn:** [vigilant-lamp](https://github.com/EshwarCVS/vigilant-lamp) — Technical learning journal — notes and experiments from what I'm studying.
 - [Your AI Coder Writes Fast. It Also Writes API Keys Into Source Files.](https://devdine.substack.com/p/your-ai-coder-writes-fast-it-also) · Jul 2026
-
-
----
-
-## 📚 Learn What I Learn
-
-[vigilant-lamp](https://github.com/EshwarCVS/vigilant-lamp) — technical learning journal
 
 
 ---
@@ -114,25 +126,6 @@ Hiring managers and job seekers — reach out on [LinkedIn](https://linkedin.com
 
 ---
 
-## 📊 GitHub Contributions
-
-<div align="center">
-
-![2026 contributions](https://img.shields.io/badge/2026%20contributions-0-brightgreen?style=flat-square) ![Commits](https://img.shields.io/badge/commits-0-blue?style=flat-square) ![PRs](https://img.shields.io/badge/PRs-0-purple?style=flat-square) ![Reviews](https://img.shields.io/badge/reviews-0-orange?style=flat-square)
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EshwarCVS/EshwarCVS/output/github-contribution-grid-snake-dark.svg">
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/EshwarCVS/EshwarCVS/output/github-contribution-grid-snake.svg">
-</picture>
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=EshwarCVS&show_icons=true&theme=dark&hide_border=true&title_color=3949AB&icon_color=3949AB&text_color=C9D1D9&hide=eshwarcvs,eshwarcvs.github.io)
-
-![GitHub streak](https://streak-stats.demolab.com?user=EshwarCVS&theme=dark&hide_border=true&background=0D1117&ring=3949AB&fire=3949AB&currStreakLabel=3949AB)
-
-</div>
-
----
-
 <div align="center">
 
 [![Star profile](https://img.shields.io/github/stars/EshwarCVS/EshwarCVS?style=social&label=Star+profile)](https://github.com/EshwarCVS/EshwarCVS) [![leash-secrets](https://img.shields.io/github/stars/FasterApiWeb/leash-secrets?style=social&label=leash-secrets)](https://github.com/FasterApiWeb/leash-secrets) [![npm](https://img.shields.io/npm/dm/leash-secrets?style=flat-square&logo=npm&label=npm)](https://www.npmjs.com/package/leash-secrets) [![save-gcp-local](https://img.shields.io/github/stars/EshwarCVS/save-gcp-local?style=social&label=save-gcp-local)](https://github.com/EshwarCVS/save-gcp-local)
@@ -142,4 +135,4 @@ Hiring managers and job seekers — reach out on [LinkedIn](https://linkedin.com
 
 ---
 
-<sub>Auto-updated Jul 10, 2026 05:57 UTC</sub>
+<sub>Auto-updated Jul 10, 2026 06:04 UTC</sub>

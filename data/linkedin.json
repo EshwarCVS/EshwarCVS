@@ -1,6 +1,7 @@
 {
   "profile": {
     "name": "Eshwar Chandra Vidhyasagar",
+    "intro_name": "Eshwar Thedla",
     "title": "Software Engineer III",
     "company": "Walmart Global Tech",
     "email": "thedlaeshwar@gmail.com",
@@ -18,7 +19,7 @@
     "visitor_counter": true,
     "activity_graph": false,
     "contributor_stats": false,
-    "snake_animation": true,
+    "snake_animation": false,
     "dev_quotes": false,
     "star_cta": true
   },
@@ -202,11 +203,16 @@
       "scored_at": "2026-07-10T04:15:50.285431+00:00"
     }
   ],
+  "learning_journal": {
+    "name": "vigilant-lamp",
+    "url": "https://github.com/EshwarCVS/vigilant-lamp",
+    "description": "Technical learning journal — notes and experiments from what I'm studying."
+  },
   "featured_articles": [
     {
       "title": "Your AI Coder Writes Fast. It Also Writes API Keys Into Source Files.",
       "url": "https://devdine.substack.com/p/your-ai-coder-writes-fast-it-also",
-      "summary": "Open-source skill for Cursor, Claude Code, and Copilot \u2014 leash-secrets.",
+      "summary": "Open-source skill for Cursor, Claude Code, and Copilot — leash-secrets.",
       "published": "Jul 2026"
     }
   ],
@@ -224,7 +230,7 @@
       "description": "Curating and amplifying software engineering job opportunities, reposting hiring lists for new grads and senior roles, and engaging with the broader tech community on LinkedIn.",
       "cta": "Hiring managers and job seekers — reach out on [LinkedIn](https://linkedin.com/in/eshwarchandravidhyasagar).",
       "url": "https://linkedin.com/in/eshwarchandravidhyasagar",
-      "period": "Ongoing",
+      "period": "2025 - Ongoing",
       "icon": "📣"
     }
   ],

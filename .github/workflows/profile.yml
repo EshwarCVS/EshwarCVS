@@ -29,7 +29,7 @@ jobs:
           scan-mode: all
           fail-on: critical
 
-  # Daily (or manual) — update README, sync data, refresh contribution snake
+  # Daily (or manual) — update README and sync data
   sync-profile:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
@@ -54,22 +54,6 @@ jobs:
 
       - name: Generate README
         run: python scripts/generate_readme.py
-
-      - name: Generate contribution snake
-        uses: Platane/snk@v3
-        with:
-          github_user_name: EshwarCVS
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Publish snake to output branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: output
-          force_orphan: false
 
       - name: Commit and push profile updates
         run: |
