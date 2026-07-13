@@ -95,8 +95,9 @@ High-performance ASGI framework — drop-in FastAPI replacement. 8.7x faster rou
 
 ## ⚡ Recent Activity
 
+- [vigilant-lamp](https://github.com/EshwarCVS/vigilant-lamp)
+- [shellcast](https://github.com/Biosystems-Analytics-Lab/shellcast)
 - [leash-secrets](https://github.com/FasterApiWeb/leash-secrets)
-- [duckdb](https://github.com/EshwarCVS/duckdb)
 
 
 ---
@@ -134,4 +135,4 @@ Hiring managers and job seekers — reach out on [LinkedIn](https://linkedin.com
 
 ---
 
-<sub>Auto-updated Jul 12, 2026 08:20 UTC</sub>
+<sub>Auto-updated Jul 13, 2026 09:29 UTC</sub>
