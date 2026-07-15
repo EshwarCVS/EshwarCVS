@@ -95,8 +95,8 @@ High-performance ASGI framework — drop-in FastAPI replacement. 8.7x faster rou
 
 ## ⚡ Recent Activity
 
-- [VectoRex](https://github.com/anurag93/VectoRex)
-- [vigilant-lamp](https://github.com/EshwarCVS/vigilant-lamp)
+- [job-hunt-engine](https://github.com/EshwarCVS/job-hunt-engine)
+- [career-ops](https://github.com/santifer/career-ops)
 - [shellcast](https://github.com/Biosystems-Analytics-Lab/shellcast)
 
 
@@ -135,4 +135,4 @@ Hiring managers and job seekers — reach out on [LinkedIn](https://linkedin.com
 
 ---
 
-<sub>Auto-updated Jul 14, 2026 08:06 UTC</sub>
+<sub>Auto-updated Jul 15, 2026 08:11 UTC</sub>
