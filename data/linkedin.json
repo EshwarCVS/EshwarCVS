@@ -175,13 +175,23 @@
       "url": "https://github.com/FasterApiWeb/leash-secrets",
       "description": "your AI writes fast. leash-secrets makes sure it doesn't run away with your secrets. 71 patterns, 20+ agents.",
       "language": "JavaScript",
-      "highlight": "Maintained OSS — DevSecOps for AI coding agents (npm published)",
-      "npm": "leash-secrets",
-      "score": 78.0,
-      "scored_at": "2026-07-10T04:15:50.285417+00:00"
+      "highlight": "Maintained OSS \u2014 DevSecOps for AI coding agents (npm published)",
+      "score": 82.0,
+      "scored_at": "2026-07-17T08:11:16.258059+00:00"
     },
     {
       "priority": 2,
+      "name": "job-hunt-engine",
+      "org": "EshwarCVS",
+      "url": "https://github.com/EshwarCVS/job-hunt-engine",
+      "description": "Open-source tech job board \u2014 internships, new grad & experienced roles. Aggregates SimplifyJobs, jobright-ai, community & curator submissions. Updated daily.",
+      "language": "Python",
+      "highlight": "Personal project \u2014 Open-source tech job board \u2014 internships, new grad & experienced roles. Aggregat...",
+      "score": 78.0,
+      "scored_at": "2026-07-17T08:11:16.258070+00:00"
+    },
+    {
+      "priority": 3,
       "name": "save-gcp-local",
       "org": "EshwarCVS",
       "url": "https://github.com/EshwarCVS/save-gcp-local",
@@ -189,49 +199,38 @@
       "language": "Python",
       "highlight": "Personal project \u2014 Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost \u2014 zero D...",
       "score": 78.0,
-      "scored_at": "2026-07-10T04:15:50.285427+00:00"
-    },
-    {
-      "priority": 3,
-      "name": "FasterAPI",
-      "org": "FasterApiWeb",
-      "url": "https://github.com/FasterApiWeb/FasterAPI",
-      "description": "High-performance ASGI framework \u2014 drop-in FastAPI replacement. 8.7x faster routing, 9.4x faster JSON, radix tree router, compiled DI, uvloop, msgspec.",
-      "language": "Python",
-      "highlight": "FasterApiWeb \u2014 High-performance ASGI framework \u2014 drop-in FastAPI replacement. 8.7x faster routi...",
-      "score": 74.0,
-      "scored_at": "2026-07-10T04:15:50.285431+00:00"
+      "scored_at": "2026-07-17T08:11:16.258074+00:00"
     }
   ],
   "learning_journal": {
     "name": "vigilant-lamp",
     "url": "https://github.com/EshwarCVS/vigilant-lamp",
-    "description": "Technical learning journal — notes and experiments from what I'm studying."
+    "description": "Technical learning journal \u2014 notes and experiments from what I'm studying."
   },
   "featured_articles": [
     {
       "title": "Your AI Coder Writes Fast. It Also Writes API Keys Into Source Files.",
       "url": "https://devdine.substack.com/p/your-ai-coder-writes-fast-it-also",
-      "summary": "Open-source skill for Cursor, Claude Code, and Copilot — leash-secrets.",
+      "summary": "Open-source skill for Cursor, Claude Code, and Copilot \u2014 leash-secrets.",
       "published": "Jul 2026"
     }
   ],
   "community": [
     {
       "title": "Free Resume Reviews",
-      "description": "Detailed resume feedback for job seekers — formatting, keywords, and role alignment — at no cost.",
+      "description": "Detailed resume feedback for job seekers \u2014 formatting, keywords, and role alignment \u2014 at no cost.",
       "cta": "Send your resume via [LinkedIn](https://linkedin.com/in/eshwarchandravidhyasagar).",
       "url": "https://www.linkedin.com/posts/eshwarchandravidhyasagar_resumereview-jobsearch-careersupport-activity-7450549822715207680-czvt",
-      "period": "2026 — Present",
-      "icon": "📋"
+      "period": "2026 \u2014 Present",
+      "icon": "\ud83d\udccb"
     },
     {
       "title": "SWE Community & Hiring Advocacy",
       "description": "Curating and amplifying software engineering job opportunities, reposting hiring lists for new grads and senior roles, and engaging with the broader tech community on LinkedIn.",
-      "cta": "Hiring managers and job seekers — reach out on [LinkedIn](https://linkedin.com/in/eshwarchandravidhyasagar).",
+      "cta": "Hiring managers and job seekers \u2014 reach out on [LinkedIn](https://linkedin.com/in/eshwarchandravidhyasagar).",
       "url": "https://linkedin.com/in/eshwarchandravidhyasagar",
       "period": "2025 - Ongoing",
-      "icon": "📣"
+      "icon": "\ud83d\udce3"
     }
   ],
   "interests": [
@@ -239,37 +238,37 @@
       "label": "Technical writing",
       "description": "Software engineering, security & AI tooling",
       "url": "https://devdine.substack.com",
-      "icon": "✍️"
+      "icon": "\u270d\ufe0f"
     },
     {
       "label": "Open source",
       "description": "Developer tools with FasterApiWeb",
       "url": "https://github.com/FasterApiWeb",
-      "icon": "🛠️"
+      "icon": "\ud83d\udee0\ufe0f"
     },
     {
       "label": "Community mentorship",
       "description": "Resume reviews & career support",
       "url": "https://linkedin.com/in/eshwarchandravidhyasagar",
-      "icon": "🤝"
+      "icon": "\ud83e\udd1d"
     },
     {
       "label": "Cooking",
       "description": "Regional recipes & meal prep",
       "url": "https://devdine.substack.com/",
-      "icon": "🍳"
+      "icon": "\ud83c\udf73"
     },
     {
       "label": "Gym & fitness",
       "description": "Strength training & high-protein meals",
       "url": "https://devdine.substack.com/",
-      "icon": "💪"
+      "icon": "\ud83d\udcaa"
     },
     {
       "label": "Reading",
       "description": "Book summaries & takeaways",
       "url": "https://devdine.substack.com",
-      "icon": "📚"
+      "icon": "\ud83d\udcda"
     }
   ]
 }

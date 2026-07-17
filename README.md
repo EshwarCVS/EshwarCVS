@@ -50,7 +50,7 @@
 
 ![GitHub streak](https://streak-stats.demolab.com?user=EshwarCVS&theme=dark&hide_border=true&background=0D1117&ring=3949AB&fire=3949AB&currStreakLabel=3949AB)
 
-[![Star profile](https://img.shields.io/github/stars/EshwarCVS/EshwarCVS?style=social&label=Star+profile)](https://github.com/EshwarCVS/EshwarCVS) [![leash-secrets](https://img.shields.io/github/stars/FasterApiWeb/leash-secrets?style=social&label=leash-secrets)](https://github.com/FasterApiWeb/leash-secrets) [![npm](https://img.shields.io/npm/dm/leash-secrets?style=flat-square&logo=npm&label=npm)](https://www.npmjs.com/package/leash-secrets) [![save-gcp-local](https://img.shields.io/github/stars/EshwarCVS/save-gcp-local?style=social&label=save-gcp-local)](https://github.com/EshwarCVS/save-gcp-local)
+[![Star profile](https://img.shields.io/github/stars/EshwarCVS/EshwarCVS?style=social&label=Star+profile)](https://github.com/EshwarCVS/EshwarCVS) [![leash-secrets](https://img.shields.io/github/stars/FasterApiWeb/leash-secrets?style=social&label=leash-secrets)](https://github.com/FasterApiWeb/leash-secrets) [![job-hunt-engine](https://img.shields.io/github/stars/EshwarCVS/job-hunt-engine?style=social&label=job-hunt-engine)](https://github.com/EshwarCVS/job-hunt-engine)
 </div>
 
 ---
@@ -60,10 +60,21 @@
 <table>
 <tr>
 <td width="100%">
-<b><a href="https://github.com/FasterApiWeb/leash-secrets">leash-secrets</a></b> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square" alt="JavaScript"/> <a href="https://www.npmjs.com/package/leash-secrets"><img src="https://img.shields.io/npm/v/leash-secrets?style=flat-square&logo=npm&label=npm" alt="npm"/></a><br/>
+<b><a href="https://github.com/FasterApiWeb/leash-secrets">leash-secrets</a></b> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square" alt="JavaScript"/><br/>
 <sub>FasterApiWeb</sub><br/><br/>
 your AI writes fast. leash-secrets makes sure it doesn't run away with your secrets. 71 patterns, 20+ agents.
 <br/><br/><i>Maintained OSS — DevSecOps for AI coding agents (npm published)</i>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="100%">
+<b><a href="https://github.com/EshwarCVS/job-hunt-engine">job-hunt-engine</a></b> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" alt="Python"/><br/>
+<sub>EshwarCVS</sub><br/><br/>
+Open-source tech job board — internships, new grad & experienced roles. Aggregates SimplifyJobs, jobright-ai, community & curator submissions. Updated daily.
+<br/><br/><i>Personal project — Open-source tech job board — internships, new grad & experienced roles. Aggreg...</i>
 </td>
 </tr>
 </table>
@@ -75,17 +86,6 @@ your AI writes fast. leash-secrets makes sure it doesn't run away with your secr
 <sub>EshwarCVS</sub><br/><br/>
 Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost — zero DAG edits.
 <br/><br/><i>Personal project — Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost — zero...</i>
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="100%">
-<b><a href="https://github.com/FasterApiWeb/FasterAPI">FasterAPI</a></b> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" alt="Python"/><br/>
-<sub>FasterApiWeb</sub><br/><br/>
-High-performance ASGI framework — drop-in FastAPI replacement. 8.7x faster routing, 9.4x faster JSON, radix tree router, compiled DI, uvloop, msgspec.
-<br/><br/><i>FasterApiWeb — High-performance ASGI framework — drop-in FastAPI replacement. 8.7x faster routi...</i>
 </td>
 </tr>
 </table>
@@ -135,4 +135,4 @@ Hiring managers and job seekers — reach out on [LinkedIn](https://linkedin.com
 
 ---
 
-<sub>Auto-updated Jul 16, 2026 08:15 UTC</sub>
+<sub>Auto-updated Jul 17, 2026 08:11 UTC</sub>

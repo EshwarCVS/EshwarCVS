@@ -1,5 +1,5 @@
 {
-  "scored_at": "2026-07-10T04:15:50.284164+00:00",
+  "scored_at": "2026-07-17T08:11:16.257178+00:00",
   "rubric_version": 1,
   "criteria": [
     {
@@ -36,30 +36,52 @@
   "selected": [
     {
       "full_name": "FasterApiWeb/leash-secrets",
-      "score": 78.0,
+      "score": 82.0,
       "priority": 1
     },
     {
-      "full_name": "EshwarCVS/save-gcp-local",
+      "full_name": "EshwarCVS/job-hunt-engine",
       "score": 78.0,
       "priority": 2
     },
     {
-      "full_name": "FasterApiWeb/FasterAPI",
-      "score": 74.0,
+      "full_name": "EshwarCVS/save-gcp-local",
+      "score": 78.0,
       "priority": 3
     }
   ],
   "rankings": [
     {
-      "full_name": "EshwarCVS/save-gcp-local",
-      "name": "save-gcp-local",
+      "full_name": "FasterApiWeb/leash-secrets",
+      "name": "leash-secrets",
+      "org": "FasterApiWeb",
+      "url": "https://github.com/FasterApiWeb/leash-secrets",
+      "description": "your AI writes fast. leash-secrets makes sure it doesn't run away with your secrets. 71 patterns, 20+ agents.",
+      "language": "JavaScript",
+      "stars": 1,
+      "pushed_at": "2026-07-11T18:30:04Z",
+      "total": 82.0,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 2,
+        "relevance": 20.0,
+        "recency": 20.0,
+        "story": 20.0,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 5d ago"
+      ]
+    },
+    {
+      "full_name": "EshwarCVS/job-hunt-engine",
+      "name": "job-hunt-engine",
       "org": "EshwarCVS",
-      "url": "https://github.com/EshwarCVS/save-gcp-local",
-      "description": "Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost \u2014 zero DAG edits.",
+      "url": "https://github.com/EshwarCVS/job-hunt-engine",
+      "description": "Open-source tech job board \u2014 internships, new grad & experienced roles. Aggregates SimplifyJobs, jobright-ai, community & curator submissions. Updated daily.",
       "language": "Python",
       "stars": 0,
-      "pushed_at": "2026-07-10T00:44:31Z",
+      "pushed_at": "2026-07-16T11:04:15Z",
       "total": 78.0,
       "breakdown": {
         "ownership": 20.0,
@@ -75,14 +97,14 @@
       ]
     },
     {
-      "full_name": "FasterApiWeb/leash-secrets",
-      "name": "leash-secrets",
-      "org": "FasterApiWeb",
-      "url": "https://github.com/FasterApiWeb/leash-secrets",
-      "description": "your AI writes fast. leash-secrets makes sure it doesn't run away with your secrets. 71 patterns, 20+ agents.",
-      "language": "JavaScript",
+      "full_name": "EshwarCVS/save-gcp-local",
+      "name": "save-gcp-local",
+      "org": "EshwarCVS",
+      "url": "https://github.com/EshwarCVS/save-gcp-local",
+      "description": "Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost \u2014 zero DAG edits.",
+      "language": "Python",
       "stars": 0,
-      "pushed_at": "2026-07-09T17:47:47Z",
+      "pushed_at": "2026-07-14T14:04:15Z",
       "total": 78.0,
       "breakdown": {
         "ownership": 20.0,
@@ -93,7 +115,30 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 0d ago",
+        "last push 2d ago",
+        "recency damped (no boost/stars)"
+      ]
+    },
+    {
+      "full_name": "FasterApiWeb/fork-shepherd",
+      "name": "fork-shepherd",
+      "org": "FasterApiWeb",
+      "url": "https://github.com/FasterApiWeb/fork-shepherd",
+      "description": "All-in-one GitHub Action for fork sync, PR monitoring, backporting, and conflict cleanup",
+      "language": "Shell",
+      "stars": 0,
+      "pushed_at": "2026-07-10T22:44:21Z",
+      "total": 78.0,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 8.0,
+        "relevance": 20.0,
+        "recency": 10.0,
+        "story": 20.0,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 6d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -116,7 +161,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 72d ago"
+        "last push 79d ago"
       ]
     },
     {
@@ -138,7 +183,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 639d ago",
+        "last push 647d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -161,7 +206,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 1906d ago",
+        "last push 1913d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -184,7 +229,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 3028d ago",
+        "last push 3036d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -207,7 +252,30 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 75d ago"
+        "last push 82d ago"
+      ]
+    },
+    {
+      "full_name": "EshwarCVS/vigilant-lamp",
+      "name": "vigilant-lamp",
+      "org": "EshwarCVS",
+      "url": "https://github.com/EshwarCVS/vigilant-lamp",
+      "description": "Learn Little everyday",
+      "language": "",
+      "stars": 0,
+      "pushed_at": "2026-07-13T06:14:20Z",
+      "total": 66.2,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 8.0,
+        "relevance": 18.0,
+        "recency": 10.0,
+        "story": 10.25,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 4d ago",
+        "recency damped (no boost/stars)"
       ]
     },
     {
@@ -229,7 +297,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 1906d ago",
+        "last push 1913d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -252,7 +320,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 1826d ago",
+        "last push 1833d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -275,30 +343,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 503d ago",
-        "recency damped (no boost/stars)"
-      ]
-    },
-    {
-      "full_name": "EshwarCVS/vigilant-lamp",
-      "name": "vigilant-lamp",
-      "org": "EshwarCVS",
-      "url": "https://github.com/EshwarCVS/vigilant-lamp",
-      "description": "Learn Little everyday",
-      "language": "",
-      "stars": 0,
-      "pushed_at": "2025-05-26T21:50:06Z",
-      "total": 56.8,
-      "breakdown": {
-        "ownership": 20.0,
-        "impact": 8.0,
-        "relevance": 18.0,
-        "recency": 0.5,
-        "story": 10.25,
-        "manual_boost": 0.0
-      },
-      "notes": [
-        "last push 409d ago",
+        "last push 511d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -310,7 +355,7 @@
       "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
       "language": "Python",
       "stars": 1,
-      "pushed_at": "2026-07-09T04:39:54Z",
+      "pushed_at": "2026-07-13T03:24:03Z",
       "total": 52.0,
       "breakdown": {
         "ownership": 5.0,
@@ -323,7 +368,7 @@
       },
       "notes": [
         "fork \u2014 lower ownership score",
-        "last push 0d ago"
+        "last push 4d ago"
       ]
     },
     {
@@ -334,7 +379,7 @@
       "description": "DuckDB is an analytical in-process SQL database management system",
       "language": "C++",
       "stars": 1,
-      "pushed_at": "2026-07-09T04:37:51Z",
+      "pushed_at": "2026-07-11T05:54:11Z",
       "total": 52.0,
       "breakdown": {
         "ownership": 5.0,
@@ -347,54 +392,7 @@
       },
       "notes": [
         "fork \u2014 lower ownership score",
-        "last push 0d ago"
-      ]
-    },
-    {
-      "full_name": "EshwarCVS/web-programming",
-      "name": "web-programming",
-      "org": "EshwarCVS",
-      "url": "https://github.com/EshwarCVS/web-programming",
-      "description": "Lab programs for WPS",
-      "language": "HTML",
-      "stars": 0,
-      "pushed_at": "2018-05-01T09:14:52Z",
-      "total": 50.5,
-      "breakdown": {
-        "ownership": 20.0,
-        "impact": 8.0,
-        "relevance": 12.0,
-        "recency": 0.5,
-        "story": 10.0,
-        "manual_boost": 0.0
-      },
-      "notes": [
-        "last push 2991d ago",
-        "recency damped (no boost/stars)"
-      ]
-    },
-    {
-      "full_name": "EshwarCVS/great_expectations",
-      "name": "great_expectations",
-      "org": "EshwarCVS",
-      "url": "https://github.com/EshwarCVS/great_expectations",
-      "description": "Always know what to expect from your data.",
-      "language": "Python",
-      "stars": 1,
-      "pushed_at": "2026-06-30T05:34:38Z",
-      "total": 47.5,
-      "breakdown": {
-        "ownership": 5.0,
-        "impact": 2,
-        "relevance": 20.0,
-        "recency": 20.0,
-        "story": 15.5,
-        "manual_boost": 0.0,
-        "fork_penalty": -15.0
-      },
-      "notes": [
-        "fork \u2014 lower ownership score",
-        "last push 9d ago"
+        "last push 6d ago"
       ]
     }
   ]
