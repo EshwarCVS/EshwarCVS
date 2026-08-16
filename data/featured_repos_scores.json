@@ -1,5 +1,5 @@
 {
-  "scored_at": "2026-08-08T06:54:05.890919+00:00",
+  "scored_at": "2026-08-16T06:40:21.166853+00:00",
   "rubric_version": 1,
   "criteria": [
     {
@@ -36,7 +36,7 @@
   "selected": [
     {
       "full_name": "FasterApiWeb/leash-secrets",
-      "score": 78.0,
+      "score": 72.0,
       "priority": 1
     },
     {
@@ -46,7 +46,7 @@
     },
     {
       "full_name": "EshwarCVS/save-gcp-local",
-      "score": 76.0,
+      "score": 73.0,
       "priority": 3
     }
   ],
@@ -59,7 +59,7 @@
       "description": "Open-source tech job board \u2014 internships, new grad & experienced roles. Aggregates SimplifyJobs, jobright-ai, community & curator submissions. Updated daily.",
       "language": "Python",
       "stars": 0,
-      "pushed_at": "2026-08-07T10:04:43Z",
+      "pushed_at": "2026-08-15T09:30:26Z",
       "total": 78.0,
       "breakdown": {
         "ownership": 20.0,
@@ -75,28 +75,6 @@
       ]
     },
     {
-      "full_name": "FasterApiWeb/leash-secrets",
-      "name": "leash-secrets",
-      "org": "FasterApiWeb",
-      "url": "https://github.com/FasterApiWeb/leash-secrets",
-      "description": "your AI writes fast. leash-secrets makes sure it doesn't run away with your secrets. 71 patterns, 20+ agents.",
-      "language": "JavaScript",
-      "stars": 1,
-      "pushed_at": "2026-07-11T18:30:04Z",
-      "total": 78.0,
-      "breakdown": {
-        "ownership": 20.0,
-        "impact": 2,
-        "relevance": 20.0,
-        "recency": 16.0,
-        "story": 20.0,
-        "manual_boost": 0.0
-      },
-      "notes": [
-        "last push 27d ago"
-      ]
-    },
-    {
       "full_name": "EshwarCVS/save-gcp-local",
       "name": "save-gcp-local",
       "org": "EshwarCVS",
@@ -105,17 +83,17 @@
       "language": "Python",
       "stars": 0,
       "pushed_at": "2026-07-14T14:04:15Z",
-      "total": 76.0,
+      "total": 73.0,
       "breakdown": {
         "ownership": 20.0,
         "impact": 8.0,
         "relevance": 20.0,
-        "recency": 8.0,
+        "recency": 5.0,
         "story": 20.0,
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 24d ago",
+        "last push 32d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -128,18 +106,40 @@
       "language": "Shell",
       "stars": 0,
       "pushed_at": "2026-07-10T22:44:21Z",
-      "total": 76.0,
+      "total": 73.0,
       "breakdown": {
         "ownership": 20.0,
         "impact": 8.0,
         "relevance": 20.0,
-        "recency": 8.0,
+        "recency": 5.0,
         "story": 20.0,
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 28d ago",
+        "last push 36d ago",
         "recency damped (no boost/stars)"
+      ]
+    },
+    {
+      "full_name": "FasterApiWeb/leash-secrets",
+      "name": "leash-secrets",
+      "org": "FasterApiWeb",
+      "url": "https://github.com/FasterApiWeb/leash-secrets",
+      "description": "your AI writes fast. leash-secrets makes sure it doesn't run away with your secrets. 71 patterns, 20+ agents.",
+      "language": "JavaScript",
+      "stars": 1,
+      "pushed_at": "2026-07-11T18:30:04Z",
+      "total": 72.0,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 2,
+        "relevance": 20.0,
+        "recency": 10.0,
+        "story": 20.0,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 35d ago"
       ]
     },
     {
@@ -161,7 +161,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 101d ago"
+        "last push 109d ago"
       ]
     },
     {
@@ -183,7 +183,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 669d ago",
+        "last push 677d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -206,7 +206,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 1935d ago",
+        "last push 1943d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -229,30 +229,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 3058d ago",
-        "recency damped (no boost/stars)"
-      ]
-    },
-    {
-      "full_name": "EshwarCVS/vigilant-lamp",
-      "name": "vigilant-lamp",
-      "org": "EshwarCVS",
-      "url": "https://github.com/EshwarCVS/vigilant-lamp",
-      "description": "Learn Little everyday",
-      "language": "",
-      "stars": 0,
-      "pushed_at": "2026-07-13T06:14:20Z",
-      "total": 64.2,
-      "breakdown": {
-        "ownership": 20.0,
-        "impact": 8.0,
-        "relevance": 18.0,
-        "recency": 8.0,
-        "story": 10.25,
-        "manual_boost": 0.0
-      },
-      "notes": [
-        "last push 26d ago",
+        "last push 3066d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -275,7 +252,30 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 104d ago"
+        "last push 112d ago"
+      ]
+    },
+    {
+      "full_name": "EshwarCVS/vigilant-lamp",
+      "name": "vigilant-lamp",
+      "org": "EshwarCVS",
+      "url": "https://github.com/EshwarCVS/vigilant-lamp",
+      "description": "Learn Little everyday",
+      "language": "",
+      "stars": 0,
+      "pushed_at": "2026-07-13T06:14:20Z",
+      "total": 61.2,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 8.0,
+        "relevance": 18.0,
+        "recency": 5.0,
+        "story": 10.25,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 34d ago",
+        "recency damped (no boost/stars)"
       ]
     },
     {
@@ -297,7 +297,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 1935d ago",
+        "last push 1943d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -320,7 +320,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 1855d ago",
+        "last push 1863d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -343,7 +343,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 533d ago",
+        "last push 541d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -355,7 +355,7 @@
       "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
       "language": "Python",
       "stars": 1,
-      "pushed_at": "2026-08-03T03:22:19Z",
+      "pushed_at": "2026-08-10T02:04:31Z",
       "total": 52.0,
       "breakdown": {
         "ownership": 5.0,
@@ -368,7 +368,7 @@
       },
       "notes": [
         "fork \u2014 lower ownership score",
-        "last push 5d ago"
+        "last push 6d ago"
       ]
     },
     {
@@ -390,7 +390,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 3020d ago",
+        "last push 3028d ago",
         "recency damped (no boost/stars)"
       ]
     }
