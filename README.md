@@ -95,9 +95,9 @@ Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost — zero
 
 ## ⚡ Recent Activity
 
-- [instructor](https://github.com/567-labs/instructor)
-- [Llm-eval-harness](https://github.com/shashu26/Llm-eval-harness)
-- [shashu26](https://github.com/shashu26/shashu26)
+- [rag-chatbot-starter](https://github.com/shashu26/rag-chatbot-starter)
+- [multi-agent-negotiator](https://github.com/shashu26/multi-agent-negotiator)
+- [stock-signal-analyzer](https://github.com/shashu26/stock-signal-analyzer)
 
 
 ---
@@ -135,4 +135,4 @@ Hiring managers and job seekers — reach out on [LinkedIn](https://linkedin.com
 
 ---
 
-<sub>Auto-updated Aug 20, 2026 06:46 UTC</sub>
+<sub>Auto-updated Aug 21, 2026 06:48 UTC</sub>
