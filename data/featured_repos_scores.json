@@ -1,5 +1,5 @@
 {
-  "scored_at": "2026-08-16T06:40:21.166853+00:00",
+  "scored_at": "2026-08-23T06:41:04.518204+00:00",
   "rubric_version": 1,
   "criteria": [
     {
@@ -59,7 +59,7 @@
       "description": "Open-source tech job board \u2014 internships, new grad & experienced roles. Aggregates SimplifyJobs, jobright-ai, community & curator submissions. Updated daily.",
       "language": "Python",
       "stars": 0,
-      "pushed_at": "2026-08-15T09:30:26Z",
+      "pushed_at": "2026-08-22T09:31:29Z",
       "total": 78.0,
       "breakdown": {
         "ownership": 20.0,
@@ -93,7 +93,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 32d ago",
+        "last push 39d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -116,7 +116,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 36d ago",
+        "last push 43d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -139,7 +139,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 35d ago"
+        "last push 42d ago"
       ]
     },
     {
@@ -161,7 +161,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 109d ago"
+        "last push 116d ago"
       ]
     },
     {
@@ -183,7 +183,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 677d ago",
+        "last push 684d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -206,7 +206,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 1943d ago",
+        "last push 1950d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -229,7 +229,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 3066d ago",
+        "last push 3073d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -252,7 +252,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 112d ago"
+        "last push 119d ago"
       ]
     },
     {
@@ -274,7 +274,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 34d ago",
+        "last push 41d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -297,7 +297,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 1943d ago",
+        "last push 1950d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -320,7 +320,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 1863d ago",
+        "last push 1870d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -343,7 +343,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 541d ago",
+        "last push 548d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -355,7 +355,7 @@
       "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
       "language": "Python",
       "stars": 1,
-      "pushed_at": "2026-08-10T02:04:31Z",
+      "pushed_at": "2026-08-17T01:27:51Z",
       "total": 52.0,
       "breakdown": {
         "ownership": 5.0,
@@ -390,7 +390,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 3028d ago",
+        "last push 3035d ago",
         "recency damped (no boost/stars)"
       ]
     }
