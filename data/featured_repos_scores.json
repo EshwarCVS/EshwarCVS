@@ -1,5 +1,5 @@
 {
-  "scored_at": "2026-08-23T06:41:04.518204+00:00",
+  "scored_at": "2026-08-30T11:25:36.419119+00:00",
   "rubric_version": 1,
   "criteria": [
     {
@@ -59,7 +59,7 @@
       "description": "Open-source tech job board \u2014 internships, new grad & experienced roles. Aggregates SimplifyJobs, jobright-ai, community & curator submissions. Updated daily.",
       "language": "Python",
       "stars": 0,
-      "pushed_at": "2026-08-22T09:31:29Z",
+      "pushed_at": "2026-08-29T14:16:42Z",
       "total": 78.0,
       "breakdown": {
         "ownership": 20.0,
@@ -93,30 +93,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 39d ago",
-        "recency damped (no boost/stars)"
-      ]
-    },
-    {
-      "full_name": "FasterApiWeb/fork-shepherd",
-      "name": "fork-shepherd",
-      "org": "FasterApiWeb",
-      "url": "https://github.com/FasterApiWeb/fork-shepherd",
-      "description": "All-in-one GitHub Action for fork sync, PR monitoring, backporting, and conflict cleanup",
-      "language": "Shell",
-      "stars": 0,
-      "pushed_at": "2026-07-10T22:44:21Z",
-      "total": 73.0,
-      "breakdown": {
-        "ownership": 20.0,
-        "impact": 8.0,
-        "relevance": 20.0,
-        "recency": 5.0,
-        "story": 20.0,
-        "manual_boost": 0.0
-      },
-      "notes": [
-        "last push 43d ago",
+        "last push 46d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -139,7 +116,29 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 42d ago"
+        "last push 49d ago"
+      ]
+    },
+    {
+      "full_name": "FasterApiWeb/fork-shepherd",
+      "name": "fork-shepherd",
+      "org": "FasterApiWeb",
+      "url": "https://github.com/FasterApiWeb/fork-shepherd",
+      "description": "All-in-one GitHub Action for fork sync, PR monitoring, backporting, and conflict cleanup",
+      "language": "Shell",
+      "stars": 1,
+      "pushed_at": "2026-07-10T22:44:21Z",
+      "total": 72.0,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 2,
+        "relevance": 20.0,
+        "recency": 10.0,
+        "story": 20.0,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 50d ago"
       ]
     },
     {
@@ -161,7 +160,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 116d ago"
+        "last push 123d ago"
       ]
     },
     {
@@ -183,7 +182,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 684d ago",
+        "last push 691d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -206,7 +205,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 1950d ago",
+        "last push 1957d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -229,7 +228,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 3073d ago",
+        "last push 3080d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -252,7 +251,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 119d ago"
+        "last push 126d ago"
       ]
     },
     {
@@ -274,7 +273,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 41d ago",
+        "last push 48d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -297,7 +296,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 1950d ago",
+        "last push 1957d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -320,7 +319,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 1870d ago",
+        "last push 1877d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -343,7 +342,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 548d ago",
+        "last push 555d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -355,7 +354,7 @@
       "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
       "language": "Python",
       "stars": 1,
-      "pushed_at": "2026-08-17T01:27:51Z",
+      "pushed_at": "2026-08-24T01:35:52Z",
       "total": 52.0,
       "breakdown": {
         "ownership": 5.0,
@@ -390,7 +389,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 3035d ago",
+        "last push 3043d ago",
         "recency damped (no boost/stars)"
       ]
     }
