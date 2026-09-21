@@ -1,5 +1,5 @@
 {
-  "scored_at": "2026-09-14T12:02:08.770599+00:00",
+  "scored_at": "2026-09-21T12:12:27.828543+00:00",
   "rubric_version": 1,
   "criteria": [
     {
@@ -59,7 +59,7 @@
       "description": "Open-source tech job board \u2014 internships, new grad & experienced roles. Aggregates SimplifyJobs, jobright-ai, community & curator submissions. Updated daily.",
       "language": "Python",
       "stars": 0,
-      "pushed_at": "2026-09-13T13:44:11Z",
+      "pushed_at": "2026-09-20T13:31:21Z",
       "total": 78.0,
       "breakdown": {
         "ownership": 20.0,
@@ -93,8 +93,30 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 61d ago",
+        "last push 68d ago",
         "recency damped (no boost/stars)"
+      ]
+    },
+    {
+      "full_name": "FasterApiWeb/FasterAPI",
+      "name": "FasterAPI",
+      "org": "FasterApiWeb",
+      "url": "https://github.com/FasterApiWeb/FasterAPI",
+      "description": "High-performance ASGI framework \u2014 drop-in FastAPI replacement. 8.7x faster routing, 9.4x faster JSON, radix tree router, compiled DI, uvloop, msgspec.",
+      "language": "Python",
+      "stars": 4,
+      "pushed_at": "2026-04-29T03:52:40Z",
+      "total": 73.0,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 8,
+        "relevance": 20.0,
+        "recency": 5.0,
+        "story": 20.0,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 145d ago"
       ]
     },
     {
@@ -116,7 +138,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 64d ago"
+        "last push 71d ago"
       ]
     },
     {
@@ -138,29 +160,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 65d ago"
-      ]
-    },
-    {
-      "full_name": "FasterApiWeb/FasterAPI",
-      "name": "FasterAPI",
-      "org": "FasterApiWeb",
-      "url": "https://github.com/FasterApiWeb/FasterAPI",
-      "description": "High-performance ASGI framework \u2014 drop-in FastAPI replacement. 8.7x faster routing, 9.4x faster JSON, radix tree router, compiled DI, uvloop, msgspec.",
-      "language": "Python",
-      "stars": 3,
-      "pushed_at": "2026-04-29T03:52:40Z",
-      "total": 71.0,
-      "breakdown": {
-        "ownership": 20.0,
-        "impact": 6,
-        "relevance": 20.0,
-        "recency": 5.0,
-        "story": 20.0,
-        "manual_boost": 0.0
-      },
-      "notes": [
-        "last push 138d ago"
+        "last push 72d ago"
       ]
     },
     {
@@ -182,7 +182,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 706d ago",
+        "last push 713d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -205,7 +205,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 1972d ago",
+        "last push 1979d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -228,7 +228,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 3095d ago",
+        "last push 3102d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -251,7 +251,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 141d ago"
+        "last push 148d ago"
       ]
     },
     {
@@ -273,7 +273,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 63d ago",
+        "last push 70d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -296,7 +296,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 1972d ago",
+        "last push 1979d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -319,7 +319,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 1892d ago",
+        "last push 1899d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -342,7 +342,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 570d ago",
+        "last push 577d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -354,7 +354,7 @@
       "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
       "language": "Python",
       "stars": 1,
-      "pushed_at": "2026-09-14T04:08:51Z",
+      "pushed_at": "2026-09-21T04:08:19Z",
       "total": 52.0,
       "breakdown": {
         "ownership": 5.0,
@@ -389,7 +389,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 3058d ago",
+        "last push 3065d ago",
         "recency damped (no boost/stars)"
       ]
     }
