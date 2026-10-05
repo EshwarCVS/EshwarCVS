@@ -93,6 +93,13 @@ Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost — zero
 
 ---
 
+## ⚡ Recent Activity
+
+- [card-dashboard](https://github.com/lalit10/card-dashboard)
+
+
+---
+
 ## 🤝 Community
 
 **[Free Resume Reviews](https://www.linkedin.com/posts/eshwarchandravidhyasagar_resumereview-jobsearch-careersupport-activity-7450549822715207680-czvt)** *(2026 — Present)*  
@@ -126,4 +133,4 @@ Hiring managers and job seekers — reach out on [LinkedIn](https://linkedin.com
 
 ---
 
-<sub>Auto-updated Oct 04, 2026 11:53 UTC</sub>
+<sub>Auto-updated Oct 05, 2026 13:50 UTC</sub>
