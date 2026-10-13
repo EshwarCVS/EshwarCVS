@@ -133,4 +133,4 @@ Hiring managers and job seekers — reach out on [LinkedIn](https://linkedin.com
 
 ---
 
-<sub>Auto-updated Oct 12, 2026 14:38 UTC</sub>
+<sub>Auto-updated Oct 13, 2026 13:43 UTC</sub>
