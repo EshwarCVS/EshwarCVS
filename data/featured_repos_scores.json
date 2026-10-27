@@ -1,5 +1,5 @@
 {
-  "scored_at": "2026-10-20T11:01:47.999938+00:00",
+  "scored_at": "2026-10-27T11:43:16.450429+00:00",
   "rubric_version": 1,
   "criteria": [
     {
@@ -45,8 +45,8 @@
       "priority": 2
     },
     {
-      "full_name": "FasterApiWeb/FasterAPI",
-      "score": 73.0,
+      "full_name": "EshwarCVS/save-gcp-local",
+      "score": 70.5,
       "priority": 3
     }
   ],
@@ -59,7 +59,7 @@
       "description": "Open-source tech job board \u2014 internships, new grad & experienced roles. Aggregates SimplifyJobs, jobright-ai, community & curator submissions. Updated daily.",
       "language": "Python",
       "stars": 0,
-      "pushed_at": "2026-10-19T16:20:11Z",
+      "pushed_at": "2026-10-26T16:15:18Z",
       "total": 78.0,
       "breakdown": {
         "ownership": 20.0,
@@ -72,28 +72,6 @@
       "notes": [
         "last push 0d ago",
         "recency damped (no boost/stars)"
-      ]
-    },
-    {
-      "full_name": "FasterApiWeb/FasterAPI",
-      "name": "FasterAPI",
-      "org": "FasterApiWeb",
-      "url": "https://github.com/FasterApiWeb/FasterAPI",
-      "description": "High-performance ASGI framework \u2014 drop-in FastAPI replacement. 8.7x faster routing, 9.4x faster JSON, radix tree router, compiled DI, uvloop, msgspec.",
-      "language": "Python",
-      "stars": 4,
-      "pushed_at": "2026-04-29T03:52:40Z",
-      "total": 73.0,
-      "breakdown": {
-        "ownership": 20.0,
-        "impact": 8,
-        "relevance": 20.0,
-        "recency": 5.0,
-        "story": 20.0,
-        "manual_boost": 0.0
-      },
-      "notes": [
-        "last push 174d ago"
       ]
     },
     {
@@ -115,8 +93,30 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 97d ago",
+        "last push 104d ago",
         "recency damped (no boost/stars)"
+      ]
+    },
+    {
+      "full_name": "FasterApiWeb/FasterAPI",
+      "name": "FasterAPI",
+      "org": "FasterApiWeb",
+      "url": "https://github.com/FasterApiWeb/FasterAPI",
+      "description": "High-performance ASGI framework \u2014 drop-in FastAPI replacement. 8.7x faster routing, 9.4x faster JSON, radix tree router, compiled DI, uvloop, msgspec.",
+      "language": "Python",
+      "stars": 4,
+      "pushed_at": "2026-04-29T03:52:40Z",
+      "total": 69.0,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 8,
+        "relevance": 20.0,
+        "recency": 1.0,
+        "story": 20.0,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 181d ago"
       ]
     },
     {
@@ -138,7 +138,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 742d ago",
+        "last push 749d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -161,7 +161,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 2008d ago",
+        "last push 2015d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -184,7 +184,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 3131d ago",
+        "last push 3138d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -207,7 +207,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 100d ago"
+        "last push 107d ago"
       ]
     },
     {
@@ -229,29 +229,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 101d ago"
-      ]
-    },
-    {
-      "full_name": "FasterApiWeb/pr-risk-scorer",
-      "name": "pr-risk-scorer",
-      "org": "FasterApiWeb",
-      "url": "https://github.com/FasterApiWeb/pr-risk-scorer",
-      "description": "Assess the PR, respond with risk score",
-      "language": "TypeScript",
-      "stars": 1,
-      "pushed_at": "2026-04-25T23:17:40Z",
-      "total": 61.5,
-      "breakdown": {
-        "ownership": 20.0,
-        "impact": 2,
-        "relevance": 20.0,
-        "recency": 5.0,
-        "story": 14.5,
-        "manual_boost": 0.0
-      },
-      "notes": [
-        "last push 177d ago"
+        "last push 108d ago"
       ]
     },
     {
@@ -273,7 +251,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 2008d ago",
+        "last push 2015d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -296,7 +274,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 1928d ago",
+        "last push 1935d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -319,7 +297,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 606d ago",
+        "last push 613d ago",
         "recency damped (no boost/stars)"
       ]
     },
@@ -342,8 +320,30 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 99d ago",
+        "last push 106d ago",
         "recency damped (no boost/stars)"
+      ]
+    },
+    {
+      "full_name": "FasterApiWeb/pr-risk-scorer",
+      "name": "pr-risk-scorer",
+      "org": "FasterApiWeb",
+      "url": "https://github.com/FasterApiWeb/pr-risk-scorer",
+      "description": "Assess the PR, respond with risk score",
+      "language": "TypeScript",
+      "stars": 1,
+      "pushed_at": "2026-04-25T23:17:40Z",
+      "total": 57.5,
+      "breakdown": {
+        "ownership": 20.0,
+        "impact": 2,
+        "relevance": 20.0,
+        "recency": 1.0,
+        "story": 14.5,
+        "manual_boost": 0.0
+      },
+      "notes": [
+        "last push 184d ago"
       ]
     },
     {
@@ -354,7 +354,7 @@
       "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
       "language": "Python",
       "stars": 1,
-      "pushed_at": "2026-10-19T03:56:20Z",
+      "pushed_at": "2026-10-26T03:59:10Z",
       "total": 52.0,
       "breakdown": {
         "ownership": 5.0,
@@ -389,7 +389,7 @@
         "manual_boost": 0.0
       },
       "notes": [
-        "last push 3094d ago",
+        "last push 3101d ago",
         "recency damped (no boost/stars)"
       ]
     }

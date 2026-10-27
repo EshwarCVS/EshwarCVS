@@ -177,7 +177,7 @@
       "language": "JavaScript",
       "highlight": "Maintained OSS \u2014 DevSecOps for AI coding agents (npm published)",
       "score": 67.0,
-      "scored_at": "2026-10-20T11:01:48.000727+00:00"
+      "scored_at": "2026-10-27T11:43:16.451317+00:00"
     },
     {
       "priority": 2,
@@ -188,18 +188,18 @@
       "language": "Python",
       "highlight": "Personal project \u2014 Open-source tech job board \u2014 internships, new grad & experienced roles. Aggregat...",
       "score": 78.0,
-      "scored_at": "2026-10-20T11:01:48.000737+00:00"
+      "scored_at": "2026-10-27T11:43:16.451327+00:00"
     },
     {
       "priority": 3,
-      "name": "FasterAPI",
-      "org": "FasterApiWeb",
-      "url": "https://github.com/FasterApiWeb/FasterAPI",
-      "description": "High-performance ASGI framework \u2014 drop-in FastAPI replacement. 8.7x faster routing, 9.4x faster JSON, radix tree router, compiled DI, uvloop, msgspec.",
+      "name": "save-gcp-local",
+      "org": "EshwarCVS",
+      "url": "https://github.com/EshwarCVS/save-gcp-local",
+      "description": "Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost \u2014 zero DAG edits.",
       "language": "Python",
-      "highlight": "FasterApiWeb \u2014 High-performance ASGI framework \u2014 drop-in FastAPI replacement. 8.7x faster routi...",
-      "score": 73.0,
-      "scored_at": "2026-10-20T11:01:48.000740+00:00"
+      "highlight": "Personal project \u2014 Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost \u2014 zero D...",
+      "score": 70.5,
+      "scored_at": "2026-10-27T11:43:16.451330+00:00"
     }
   ],
   "learning_journal": {

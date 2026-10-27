@@ -82,10 +82,10 @@ Open-source tech job board — internships, new grad & experienced roles. Aggreg
 <table>
 <tr>
 <td width="100%">
-<b><a href="https://github.com/FasterApiWeb/FasterAPI">FasterAPI</a></b> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" alt="Python"/><br/>
-<sub>FasterApiWeb</sub><br/><br/>
-High-performance ASGI framework — drop-in FastAPI replacement. 8.7x faster routing, 9.4x faster JSON, radix tree router, compiled DI, uvloop, msgspec.
-<br/><br/><i>FasterApiWeb — High-performance ASGI framework — drop-in FastAPI replacement. 8.7x faster routi...</i>
+<b><a href="https://github.com/EshwarCVS/save-gcp-local">save-gcp-local</a></b> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" alt="Python"/><br/>
+<sub>EshwarCVS</sub><br/><br/>
+Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost — zero DAG edits.
+<br/><br/><i>Personal project — Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost — zero...</i>
 </td>
 </tr>
 </table>
@@ -133,4 +133,4 @@ Hiring managers and job seekers — reach out on [LinkedIn](https://linkedin.com
 
 ---
 
-<sub>Auto-updated Oct 26, 2026 12:24 UTC</sub>
+<sub>Auto-updated Oct 27, 2026 11:43 UTC</sub>
