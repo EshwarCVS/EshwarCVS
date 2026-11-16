@@ -93,6 +93,13 @@ Run GCP Dataproc Spark jobs locally in Docker/Podman to save cloud cost — zero
 
 ---
 
+## ⚡ Recent Activity
+
+- [super-duper-mem-101](https://github.com/EshwarCVS/super-duper-mem-101)
+
+
+---
+
 ## 🤝 Community
 
 **[Free Resume Reviews](https://www.linkedin.com/posts/eshwarchandravidhyasagar_resumereview-jobsearch-careersupport-activity-7450549822715207680-czvt)** *(2026 — Present)*  
@@ -126,4 +133,4 @@ Hiring managers and job seekers — reach out on [LinkedIn](https://linkedin.com
 
 ---
 
-<sub>Auto-updated Nov 15, 2026 13:34 UTC</sub>
+<sub>Auto-updated Nov 16, 2026 15:01 UTC</sub>
